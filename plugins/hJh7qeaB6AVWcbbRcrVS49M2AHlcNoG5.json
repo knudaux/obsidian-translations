@@ -1,0 +1,1054 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "local-gpt",
+        "version": "1.0.0",
+        "title": "Local GPT",
+        "description": "Local GPT Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "4.2.1",
+        "author": "knudxiao"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Hi",
+                    "target": "你好"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "div",
+                    "target": "div"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to fetch community actions",
+                    "target": "获取社区操作失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to load community actions",
+                    "target": "加载社区操作失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to read Action Palette history:",
+                    "target": "读取操作面板历史记录失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to save Action Palette history:",
+                    "target": "保存操作面板历史记录失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error fetching providers:",
+                    "target": "获取提供者时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error fetching models:",
+                    "target": "获取模型时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error selecting provider:",
+                    "target": "选择提供者时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error selecting model:",
+                    "target": "选择模型时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error showing creativity dropdown:",
+                    "target": "显示创意下拉菜单时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error selecting creativity:",
+                    "target": "选择创意时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error showing system dropdown:",
+                    "target": "显示系统下拉菜单时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error selecting system prompt:",
+                    "target": "选择系统提示时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error showing provider dropdown:",
+                    "target": "显示提供商下拉菜单时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error showing model dropdown:",
+                    "target": "显示模型下拉菜单时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error extracting text from PDF",
+                    "target": "从PDF提取文本时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error in searchDocuments:",
+                    "target": "搜索文档时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error processing RAG:",
+                    "target": "处理RAG时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to migrate Action Palette system prompt selection:",
+                    "target": "迁移操作面板系统提示选择失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to clean up legacy Action Palette system prompt selection:",
+                    "target": "清理旧版操作面板系统提示选择失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error checking for updates:",
+                    "target": "检查更新时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "TODO: Support non-isolated groups.",
+                    "target": "TODO：暂不支持非隔离组。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Optional content group not defined.",
+                    "target": "可选内容组未定义。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "The worker has been disabled.",
+                    "target": "工作线程已被禁用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Starting RAG processing",
+                    "target": "开始RAG处理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Passed contextLimit for context",
+                    "target": "上下文超出contextLimit"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Total length of context",
+                    "target": "上下文总长度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "font-weight: bold;",
+                    "target": "font-weight: bold;"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "color: #FF4500; font-weight: bold; font-size: 1.2em;",
+                    "target": "color: #FF4500; font-weight: bold; font-size: 1.2em;"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Edit",
+                    "target": "编辑"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "%c[svelte] lifecycle_double_unmount\n%cTried to unmount a component that was not mounted\nhttps://svelte.dev/e/lifecycle_double_unmount",
+                    "target": "%c[svelte] lifecycle_double_unmount\n%cTried to unmount a component that was not mounted\nhttps://svelte.dev/e/lifecycle_double_unmount"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "%c[svelte] state_proxy_unmount\n%cTried to unmount a state proxy, rather than a component\nhttps://svelte.dev/e/state_proxy_unmount",
+                    "target": "%c[svelte] state_proxy_unmount\n%cTried to unmount a state proxy, rather than a component\nhttps://svelte.dev/e/state_proxy_unmount"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "%c[svelte] svelte_boundary_reset_noop\n%cA \\`<svelte:boundary>\\` \\`reset\\` function only resets the boundary the first time it is called\nhttps://svelte.dev/e/svelte_boundary_reset_noop",
+                    "target": "%c[svelte] svelte_boundary_reset_noop\n%cA \\`<svelte:boundary>\\` \\`reset\\` function only resets the boundary the first time it is called\nhttps://svelte.dev/e/svelte_boundary_reset_noop"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to hydrate: ",
+                    "target": "Failed to hydrate: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "No providers available",
+                    "target": "No providers available"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "No models available",
+                    "target": "No models available"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "getPdfFilenameFromUrl: ignore \"data:\"-URL for performance reasons.",
+                    "target": "getPdfFilenameFromUrl: ignore \"data:\"-URL for performance reasons."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Load test font never loaded.",
+                    "target": "Load test font never loaded."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "LoopbackPort - cannot use an `aborted` signal.",
+                    "target": "LoopbackPort - cannot use an `aborted` signal."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "#createUrl: ignore \"data:\"-URL for performance reasons.",
+                    "target": "#createUrl: 出于性能原因忽略 \"data:\" URL。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Cannot polyfill `DOMMatrix`, rendering may be broken.",
+                    "target": "无法 polyfill `DOMMatrix`，渲染可能出错。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Cannot polyfill `ImageData`, rendering may be broken.",
+                    "target": "无法 polyfill `ImageData`，渲染可能出错。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Cannot polyfill `Path2D`, rendering may be broken.",
+                    "target": "无法 polyfill `Path2D`，渲染可能出错。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Knockout groups not supported.",
+                    "target": "不支持 Knockout 组。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Dependent image isn't ready yet",
+                    "target": "依赖的图像尚未就绪。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Missing or invalid \"Content-Range\" header.",
+                    "target": "缺少或无效的 \"Content-Range\" 标头。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Ignoring additional textDivs for performance reasons.",
+                    "target": "出于性能原因忽略额外的 textDivs。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Enable the `dom.textMetrics.fontBoundingBox.enabled` preference in `about:config` to improve TextLayer rendering.",
+                    "target": "在 `about:config` 中启用 `dom.textMetrics.fontBoundingBox.enabled` 首选项以改进 TextLayer 渲染。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Setting up fake worker.",
+                    "target": "正在设置假 worker。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "saveDocument called while `annotationStorage` is empty, please use the getData-method instead.",
+                    "target": "在 `annotationStorage` 为空时调用了 saveDocument，请改用 getData 方法。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Unimplemented border style: beveled",
+                    "target": "未实现的边框样式：beveled"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Unimplemented border style: inset",
+                    "target": "未实现的边框样式：inset"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "_bindResetFormAction - \"resetForm\" action not supported, ensure that the \\`fieldObjects\\` parameter is provided.",
+                    "target": "_bindResetFormAction - 不支持 \"resetForm\" 操作，请确保提供了 `fieldObjects` 参数。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "RAG retrieval is not supported by the selected provider; skipping context retrieval",
+                    "target": "所选提供商不支持 RAG 检索；跳过上下文检索"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "\\u{1F389} LocalGPT can finally use\ncontext from links!\nCheck the Settings!",
+                    "target": "🎉 LocalGPT 现在可以使用\n链接中的上下文了！\n请查看设置！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "local-gpt-community-actions-status local-gpt-action-community-status local-gpt-is-installed",
+                    "target": "local-gpt-community-actions-status local-gpt-action-community-status local-gpt-is-installed"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "hint",
+                    "source": "Nutzen Sie / für Befehle, @ für Dateien",
+                    "target": "使用 / 输入命令，@ 输入文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "hint",
+                    "source": "Use / for commands, @ for files",
+                    "target": "Use / for commands, @ for files"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "hint",
+                    "source": "Use / para comandos, @ para archivos",
+                    "target": "Use / para comandos, @ para archivos"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "hint",
+                    "source": "Utilisez / pour les commandes, @ pour les fichiers",
+                    "target": "使用 / 输入命令，@ 引用文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "hint",
+                    "source": "Usa / per i comandi, @ per i file",
+                    "target": "使用 / 输入命令，@ 引用文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "hint",
+                    "source": "コマンドには /、ファイルには @ を使用",
+                    "target": "使用 / 输入命令，@ 引用文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "hint",
+                    "source": "명령어는 /, 파일은 @ 사용",
+                    "target": "使用 / 输入命令，@ 引用文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "hint",
+                    "source": "Gebruik / voor commando's, @ voor bestanden",
+                    "target": "使用 / 输入命令，@ 引用文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "hint",
+                    "source": "Use / para comandos, @ para arquivos",
+                    "target": "使用 / 输入命令，@ 引用文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "hint",
+                    "source": "Используйте / для команд, @ для файлов",
+                    "target": "使用 / 输入命令，@ 引用文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "hint",
+                    "source": "使用 / 输入命令，@ 引用文件",
+                    "target": "使用 / 输入命令，@ 引用文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Denke",
+                    "target": "思考"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Thinking",
+                    "target": "思考"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Pensando",
+                    "target": "思考中"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Réflexion",
+                    "target": "思考中"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "思考中",
+                    "target": "思考中"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "생각 중",
+                    "target": "思考中"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Denken",
+                    "target": "思考中"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Думаю",
+                    "target": "思考中"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "🪄 General help",
+                    "target": "🪄 通用帮助"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "✍️ Continue writing",
+                    "target": "✍️ 继续写作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "🍭 Summarize",
+                    "target": "🍭 总结"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "📖 Fix spelling and grammar",
+                    "target": "📖 修正拼写和语法"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "✅ Find action items",
+                    "target": "✅ 查找操作项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "🧠 New System Prompt",
+                    "target": "🧠 新系统提示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Aktionspalette",
+                    "target": "Aktionspalette"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Action Palette",
+                    "target": "Action Palette"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Paleta de acciones",
+                    "target": "Paleta de acciones"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Palette d'actions",
+                    "target": "Palette d'actions"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Tavolozza azioni",
+                    "target": "Tavolozza azioni"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "アクションパレット",
+                    "target": "アクションパレット"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "액션 팔레트",
+                    "target": "액션 팔레트"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Actiepalet",
+                    "target": "Actiepalet"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Paleta de ações",
+                    "target": "动作面板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Палитра действий",
+                    "target": "动作面板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "动作面板",
+                    "target": "动作面板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "filter",
+                    "target": "filter"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "choose",
+                    "target": "choose"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "start",
+                    "target": "start"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "clone",
+                    "target": "clone"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "change",
+                    "target": "change"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "unchoose",
+                    "target": "unchoose"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "add",
+                    "target": "add"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "remove",
+                    "target": "移除"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "sort",
+                    "target": "排序"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "update",
+                    "target": "更新"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "end",
+                    "target": "结束"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Name: ",
+                    "target": "名称： "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "separator",
+                    "target": "分隔符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "provider",
+                    "target": "提供者"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "model",
+                    "target": "模型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "creativity",
+                    "target": "创造力"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "system",
+                    "target": "系统"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ResetForm",
+                    "target": "ResetForm"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Keystroke",
+                    "target": "Keystroke"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "div",
+                    "target": "div"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "span",
+                    "target": "span"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Ihr Prompt... | Enter: senden, Esc: abbrechen",
+                    "target": "Ihr Prompt... | Enter: senden, Esc: abbrechen"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Your prompt... | Enter: send, Esc: cancel",
+                    "target": "Your prompt... | Enter: send, Esc: cancel"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Tu instrucción... | Enter: enviar, Esc: cancelar",
+                    "target": "Tu instrucción... | Enter: enviar, Esc: cancelar"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Votre invite... | Entrée : envoyer, Échap : annuler",
+                    "target": "Votre invite... | Entrée : envoyer, Échap : annuler"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Il tuo prompt... | Enter: invia, Esc: annulla",
+                    "target": "Il tuo prompt... | Enter: invia, Esc: annulla"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "プロンプトを入力... | Enter: 送信, Esc: キャンセル",
+                    "target": "プロンプトを入力... | Enter: 送信, Esc: キャンセル"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "프롬프트 입력... | Enter: 전송, Esc: 취소",
+                    "target": "输入提示... | Enter: 发送, Esc: 取消"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Jouw prompt... | Enter: verzenden, Esc: annuleren",
+                    "target": "输入提示... | Enter: 发送, Esc: 取消"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Seu prompt... | Enter: enviar, Esc: cancelar",
+                    "target": "输入提示... | Enter: 发送, Esc: 取消"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Ваш промпт... | Enter: отправить, Esc: отмена",
+                    "target": "输入提示... | Enter: 发送, Esc: 取消"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "您的提示... | Enter: 发送, Esc: 取消",
+                    "target": "您的提示... | Enter: 发送, Esc: 取消"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "error(`AI Providers compatibility check failed: ${error}`)",
+                    "target": "error(`AI Providers compatibility check failed: ${error}`)"
+                },
+                {
+                    "source": "error(\n          `GitHub API responded with ${response.status} on page ${page}`\n        )",
+                    "target": "error(\n          `GitHub API responded with ${response.status} on page ${page}`\n        )"
+                },
+                {
+                    "source": "error(\"Failed to load community actions\", error);\n        communityActionsLoaded = true;\n        setCommunityActionsStatusMessage(\"\")",
+                    "target": "error(\"Failed to load community actions\", error);\n        communityActionsLoaded = true;\n        setCommunityActionsStatusMessage(\"\")"
+                },
+                {
+                    "source": "error(\"created at\")",
+                    "target": "error(\"created at\")"
+                },
+                {
+                    "source": "error(\"updated at\")",
+                    "target": "error(\"updated at\")"
+                },
+                {
+                    "source": "error(\"traced at\")",
+                    "target": "error(\"traced at\")"
+                },
+                {
+                    "source": "error(\"Failed to read Action Palette history:\", error);\n    return [];\n  }\n}\nfunction persistHistory() {\n  if (typeof localStorage === \"undefined\")",
+                    "target": "error(\"Failed to read Action Palette history:\", error);\n    return [];\n  }\n}\nfunction persistHistory() {\n  if (typeof localStorage === \"undefined\")"
+                },
+                {
+                    "source": "error(\"Error selecting model:\", error);\n        hideDropdown();\n      }\n    });\n  }\n  function applyCreativityFilter() {\n    if (!allCreativities || allCreativities.length === 0) return;\n    const q = getCommandQuery(\"creativity\")",
+                    "target": "error(\"Error selecting model:\", error);\n        hideDropdown();\n      }\n    });\n  }\n  function applyCreativityFilter() {\n    if (!allCreativities || allCreativities.length === 0) return;\n    const q = getCommandQuery(\"creativity\")"
+                },
+                {
+                    "source": "error(\"Error selecting creativity:\", error);\n        hideDropdown();\n      }\n    });\n  }\n  function applySystemFilter() {\n    if (!allSystemPrompts || allSystemPrompts.length === 0) return;\n    const q = getCommandQuery(\"system\")",
+                    "target": "error(\"Error selecting creativity:\", error);\n        hideDropdown();\n      }\n    });\n  }\n  function applySystemFilter() {\n    if (!allSystemPrompts || allSystemPrompts.length === 0) return;\n    const q = getCommandQuery(\"system\")"
+                },
+                {
+                    "source": "error(\"Error selecting system prompt:\", error);\n        hideDropdown();\n      }\n    });\n  }\n  function clearSystemPromptSelection() {\n    return __awaiter(this, void 0, void 0, function* () {\n      selectedSystemPromptValue = void 0;\n      set(selectedSystemPromptName, \"\")",
+                    "target": "error(\"Error selecting system prompt:\", error);\n        hideDropdown();\n      }\n    });\n  }\n  function clearSystemPromptSelection() {\n    return __awaiter(this, void 0, void 0, function* () {\n      selectedSystemPromptValue = void 0;\n      set(selectedSystemPromptName, \"\")"
+                },
+                {
+                    "source": "error(\"Error showing provider dropdown:\", error);\n      }\n    });\n  }\n  function applyModelFilter() {\n    if (!allModels || allModels.length === 0) return;\n    const q = getCommandQuery(\"model\")",
+                    "target": "error(\"Error showing provider dropdown:\", error);\n      }\n    });\n  }\n  function applyModelFilter() {\n    if (!allModels || allModels.length === 0) return;\n    const q = getCommandQuery(\"model\")"
+                },
+                {
+                    "source": "log(\"Deprecated API usage: \" + details);\n}\nvar _regex;\nvar PDFDateString = class {\n  static toDateObject(input) {\n    if (input instanceof Date) {\n      return input;\n    }\n    if (!input || typeof input !== \"string\")",
+                    "target": "log(\"Deprecated API usage: \" + details);\n}\nvar _regex;\nvar PDFDateString = class {\n  static toDateObject(input) {\n    if (input instanceof Date) {\n      return input;\n    }\n    if (!input || typeof input !== \"string\")"
+                },
+                {
+                    "source": "log(\"getPageIndex\",[i])}catch(o){it(`_getPageIndex -- not a valid page reference: \"${o}\".`)}if(a.has(\"Kids\")",
+                    "target": "log(\"getPageIndex\",[i])}catch(o){it(`_getPageIndex -- not a valid page reference: \"${o}\".`)}if(a.has(\"Kids\")"
+                },
+                {
+                    "source": "log(\"getPageIndex\",[y])}),u.on(\"GetDestinations\",function(k){return s.ensureCatalog(\"destinations\")",
+                    "target": "log(\"getPageIndex\",[y])}),u.on(\"GetDestinations\",function(k){return s.ensureCatalog(\"destinations\")"
+                },
+                {
+                    "source": "log(\"getDestination\",[k.id])}),u.on(\"GetPageLabels\",function(k){return s.ensureCatalog(\"pageLabels\")",
+                    "target": "log(\"getDestination\",[k.id])}),u.on(\"GetPageLabels\",function(k){return s.ensureCatalog(\"pageLabels\")"
+                },
+                {
+                    "source": "error(\"Error in searchDocuments:\", error);\n    }\n    return \"\";\n  }\n}\nfunction isRetrieveNotImplementedError(error) {\n  if (!error || typeof error !== \"object\")",
+                    "target": "error(\"Error in searchDocuments:\", error);\n    }\n    return \"\";\n  }\n}\nfunction isRetrieveNotImplementedError(error) {\n  if (!error || typeof error !== \"object\")"
+                },
+                {
+                    "source": "setText(` `)",
+                    "target": "setText(` `)"
+                },
+                {
+                    "source": "name: \"Aktionspalette\"",
+                    "target": "name: \"Aktionspalette\""
+                },
+                {
+                    "source": "name: \"Action Palette\"",
+                    "target": "name: \"Action Palette\""
+                },
+                {
+                    "source": "name: \"Paleta de acciones\"",
+                    "target": "name: \"Paleta de acciones\""
+                },
+                {
+                    "source": "name: \"Palette d'actions\"",
+                    "target": "name: \"Palette d'actions\""
+                },
+                {
+                    "source": "name: \"Tavolozza azioni\"",
+                    "target": "name: \"Tavolozza azioni\""
+                },
+                {
+                    "source": "name: \"Actiepalet\"",
+                    "target": "name: \"Actiepalet\""
+                },
+                {
+                    "source": "name : \"\"",
+                    "target": "name : \"\""
+                },
+                {
+                    "source": "name: \"filter\"",
+                    "target": "name: \"filter\""
+                },
+                {
+                    "source": "name: \"choose\"",
+                    "target": "name: \"choose\""
+                },
+                {
+                    "source": "name: \"start\"",
+                    "target": "name: \"start\""
+                },
+                {
+                    "source": "name: \"clone\"",
+                    "target": "name: \"clone\""
+                },
+                {
+                    "source": "name: \"change\"",
+                    "target": "name: \"change\""
+                },
+                {
+                    "source": "name: \"unchoose\"",
+                    "target": "name: \"unchoose\""
+                },
+                {
+                    "source": "name: \"add\"",
+                    "target": "name: \"add\""
+                },
+                {
+                    "source": "name: \"remove\"",
+                    "target": "name: \"remove\""
+                },
+                {
+                    "source": "name: \"sort\"",
+                    "target": "name: \"sort\""
+                },
+                {
+                    "source": "name: \"update\"",
+                    "target": "name: \"update\""
+                },
+                {
+                    "source": "name: \"end\"",
+                    "target": "name: \"end\""
+                },
+                {
+                    "source": "name: \"\"",
+                    "target": "name: \"\""
+                },
+                {
+                    "source": "name: \"Name: \"",
+                    "target": "name: \"Name: \""
+                },
+                {
+                    "source": "text: `${label}: `",
+                    "target": "text: `${label}: `"
+                },
+                {
+                    "source": "name: \"separator\"",
+                    "target": "name: \"separator\""
+                },
+                {
+                    "source": "textContent = \"\"",
+                    "target": "textContent = \"\""
+                },
+                {
+                    "source": "name = \"Svelte error\"",
+                    "target": "name = \"Svelte error\""
+                },
+                {
+                    "source": "name: \"provider\"",
+                    "target": "name: \"provider\""
+                },
+                {
+                    "source": "name: \"model\"",
+                    "target": "name: \"model\""
+                },
+                {
+                    "source": "name: \"creativity\"",
+                    "target": "name: \"creativity\""
+                },
+                {
+                    "source": "name: \"system\"",
+                    "target": "name: \"system\""
+                },
+                {
+                    "source": "name = \"[\"",
+                    "target": "name = \"[\""
+                },
+                {
+                    "source": "name = \"get \"",
+                    "target": "name = \"get \""
+                },
+                {
+                    "source": "name = \"set \"",
+                    "target": "name = \"set \""
+                },
+                {
+                    "source": "name = `${attributes.name}-${intent}`",
+                    "target": "name = `${attributes.name}-${intent}`"
+                },
+                {
+                    "source": "name = \"document.pdf\"",
+                    "target": "name = \"document.pdf\""
+                },
+                {
+                    "source": "text: \"pdfjs-editor-remove-freetext-button\"",
+                    "target": "text: \"pdfjs-editor-remove-freetext-button\""
+                },
+                {
+                    "source": "textContent = \"Hi\"",
+                    "target": "textContent = \"Hi\""
+                },
+                {
+                    "source": "textContent = \"X\"",
+                    "target": "textContent = \"X\""
+                },
+                {
+                    "source": "name = \"GetMetadata\"",
+                    "target": "name = \"GetMetadata\""
+                },
+                {
+                    "source": "text: \"pdfjs-editor-color-picker-free-text-input\"",
+                    "target": "text: \"pdfjs-editor-color-picker-free-text-input\""
+                },
+                {
+                    "source": "name: \"ResetForm\"",
+                    "target": "name: \"ResetForm\""
+                },
+                {
+                    "source": "name: \"Keystroke\"",
+                    "target": "name: \"Keystroke\""
+                },
+                {
+                    "source": "name: \"div\"",
+                    "target": "name: \"div\""
+                },
+                {
+                    "source": "name: \"p\"",
+                    "target": "name: \"p\""
+                },
+                {
+                    "source": "name: \"span\"",
+                    "target": "name: \"span\""
+                },
+                {
+                    "source": "name: \"freeTextEditor\"",
+                    "target": "name: \"freeTextEditor\""
+                },
+                {
+                    "source": "name: \"highlightEditor\"",
+                    "target": "name: \"highlightEditor\""
+                },
+                {
+                    "source": "name: \"inkEditor\"",
+                    "target": "name: \"inkEditor\""
+                },
+                {
+                    "source": "name: \"signatureEditor\"",
+                    "target": "name: \"signatureEditor\""
+                },
+                {
+                    "source": "description: \"\"",
+                    "target": "description: \"\""
+                },
+                {
+                    "source": "name: \"stampEditor\"",
+                    "target": "name: \"stampEditor\""
+                },
+                {
+                    "source": "name: \"altText\"",
+                    "target": "name: \"altText\""
+                },
+                {
+                    "source": "name: \"+t);if(!e)throw new Error(\"",
+                    "target": "name: \"+t);if(!e)throw new Error(\""
+                },
+                {
+                    "source": "page: \"${d}\"",
+                    "target": "page: \"${d}\""
+                },
+                {
+                    "source": "selection:\",\n        error\n      );\n      return null;\n    }\n  }\n  clearLegacyActionPaletteSystemPromptId() {\n    try {\n      window.localStorage.removeItem(\n        this.getLegacyActionPaletteSystemPromptStorageKey()\n      );\n    } catch (error) {\n      console.error(\n        \"",
+                    "target": "selection:\",\n        error\n      );\n      return null;\n    }\n  }\n  clearLegacyActionPaletteSystemPromptId() {\n    try {\n      window.localStorage.removeItem(\n        this.getLegacyActionPaletteSystemPromptStorageKey()\n      );\n    } catch (error) {\n      console.error(\n        \""
+                },
+                {
+                    "source": "selection:\",\n        error\n      );\n    }\n  }\n  async checkUpdates() {\n    try {\n      const { json: response } = await (0, import_obsidian5.requestUrl)({\n        url: \"",
+                    "target": "selection:\",\n        error\n      );\n    }\n  }\n  async checkUpdates() {\n    try {\n      const { json: response } = await (0, import_obsidian5.requestUrl)({\n        url: \""
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,2380 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "code-styler",
+        "version": "1.0.0",
+        "title": "Code Styler",
+        "description": "Code Styler Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.7",
+        "author": "knudxiao"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<img src=\"https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=mayurankv2&button_colour=e3e7efa0&font_colour=262626&font_family=Inter&outline_colour=262626&coffee_colour=a0522d\" height=\"42px\">",
+                    "target": "<img src=\"https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=mayurankv2&button_colour=e3e7efa0&font_colour=262626&font_family=Inter&outline_colour=262626&coffee_colour=a0522d\" height=\"42px\">"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Update Reference",
+                    "target": "更新参考"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "URL",
+                    "target": "URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "hr",
+                    "target": "hr"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "div",
+                    "target": "div"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "button",
+                    "target": "button"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createSpan",
+                    "source": "Needs completing",
+                    "target": "需要完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Loaded plugin: Code Styler",
+                    "target": "已加载插件：Code Styler"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Unloaded plugin: Code Styler",
+                    "target": "已卸载插件：Code Styler"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add",
+                    "target": "添加"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Reset",
+                    "target": "重置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Change dropdown to modify different groups of settings",
+                    "target": "更改下拉菜单以修改不同的设置组"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Change dropdown to modify styles and settings of different codeblock sections",
+                    "target": "更改下拉菜单以修改不同代码块部分的样式和设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled, styling will be applied when exporting to PDF.",
+                    "target": "如果启用，导出为 PDF 时将应用样式。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Create a new theme from the current settings.",
+                    "target": "从当前设置创建新主题。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Determines how rounded the codeblocks appear in pixels.",
+                    "target": "决定代码块在像素中的圆角程度。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled, languages with icons display a left border with the colour of the icon. The slider sets the width of the border.",
+                    "target": "如果启用，带有图标的语言会显示一个与图标颜色相同的左边框。滑块设置边框的宽度。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose whether to unwrap lines in reading mode",
+                    "target": "选择是否在阅读模式下自动换行"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled, in reading mode, holding click on a codeblock will wrap the lines for better visibility.",
+                    "target": "如果启用，在阅读模式下，按住点击代码块将自动换行以获得更好的可见性。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If disabled, the below settings are disabled too.",
+                    "target": "如果禁用，以下设置也将被禁用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled, highlights will also highlight the line numbers.",
+                    "target": "如果启用，高亮也会高亮行号。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled, the current line number in codeblocks will be indicated with a separate colour.",
+                    "target": "如果启用，代码块中的当前行号将用单独的颜色指示。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set the font size for header language tags and titles.",
+                    "target": "设置标题语言标签和标题的字体大小。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Style the header title text using bold and italic toggles, by setting a font or by setting a text colour.",
+                    "target": "通过设置字体或文本颜色，使用粗体和斜体切换来样式化标题标题文本。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Title placeholder text for folded code when no title parameter is set.",
+                    "target": "当未设置标题参数时，折叠代码的标题占位符文本。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Colour of the line separating the codeblock header and the codeblock.",
+                    "target": "分隔代码块标题和代码块的线条颜色。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Determine when to show language tags in the header. \"Title Only\" will only show language tags when the title parameter is set.",
+                    "target": "确定何时在标题中显示语言标签。“仅标题”将仅在设置了标题参数时显示语言标签。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Determine when to show language icons where available. \"Title Only\" will only show language tags when the title parameter is set.",
+                    "target": "确定何时在可用时显示语言图标。“仅标题”将仅在设置了标题参数时显示语言标签。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Style the header language tag text using bold and italic toggles, by setting a font or by setting a text colour.",
+                    "target": "通过设置字体或文本颜色，使用粗体和斜体切换来样式化标题语言标签文本。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If disabled, language icons will be black and white.",
+                    "target": "如果禁用，语言图标将变为黑白。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set the size of the displayed language icons.",
+                    "target": "设置显示语言图标的大小。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Display repository in codeblock header for external references.",
+                    "target": "在代码块头部显示外部引用的仓库。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Display repository version in codeblock header for external references.",
+                    "target": "在代码块头部显示外部引用的仓库版本。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Display the timestamp at which the reference was last updated.",
+                    "target": "显示引用最后更新的时间戳。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled, highlights the active line inside codeblocks.",
+                    "target": "如果启用，高亮代码块中的活动行。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Used by the 'hl' parameter.",
+                    "target": "由 'hl' 参数使用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Define a new alternative highlight name. The colour can be modified after it is added.",
+                    "target": "定义一个新的替代高亮名称。添加后可以修改颜色。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled, highlights fade away to the right. The slider sets the gradient colour stop as a percentage.",
+                    "target": "如果启用，高亮会向右淡出。滑块设置渐变颜色停止的百分比。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Define languages in a comma separated list which the plugin should not decorate. You can use a wildcard (*) either at the beginning, or at the end. For example: ad-* will exclude codeblocks where the language starts with ad- e.g.: ad-info, ad-error etc.",
+                    "target": "以逗号分隔列表定义插件不应装饰的语言。可以在开头或结尾使用通配符 (*)。例如：ad-* 将排除语言以 ad- 开头的代码块，如 ad-info、ad-error 等。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Define languages in a comma separated list which the plugin should style despite being processed by another plugin. You can use a wildcard (*) either at the beginning, or at the end. For example: ad-* will exclude codeblocks where the language starts with ad- e.g.: ad-info, ad-error etc.",
+                    "target": "以逗号分隔列表定义插件应样式化的语言，即使这些语言已被其他插件处理。可以在开头或结尾使用通配符 (*)。例如：ad-* 将排除语言以 ad- 开头的代码块，如 ad-info、ad-error 等。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Use this textbox to redirect specific language colours and icons as a JSON with language names as keys and either a colour key, an icon key or both as the value for a given language. Colours should be passed as CSS colours and icons should be passed as a string of the inside of an svg element. This setting is theme independent.",
+                    "target": "使用此文本框以JSON格式重定向特定语言的颜色和图标，键为语言名称，值为该语言的颜色键、图标键或两者。颜色应作为CSS颜色传递，图标应作为SVG元素内部的字符串传递。此设置与主题无关。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled, in reading mode, inline code will be syntax highlighted based on a language set with `{language} highlighted_inline_code`. See the README for more information.",
+                    "target": "如果启用，在阅读模式下，内联代码将根据使用`{language} highlighted_inline_code`设置的语言进行语法高亮。有关更多信息，请参阅README。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled, inline code will be styled.",
+                    "target": "如果启用，内联代码将被样式化。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The text colour of inline code titles.",
+                    "target": "内联代码标题的文本颜色。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Determines how bold inline code titles appear.",
+                    "target": "确定内联代码标题的加粗程度。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The text colour when editing inline code.",
+                    "target": "编辑内联代码时的文本颜色。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Determines how bold inline code appears.",
+                    "target": "确定内联代码的加粗程度。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Determines how rounded inline code appear in pixels.",
+                    "target": "确定内联代码的圆角像素值。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Determines how much vertical inner padding in pixels inline code has.",
+                    "target": "确定内联代码的垂直内边距像素值。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Determines how much horizontal inner padding in pixels inline code has.",
+                    "target": "确定内联代码的水平内边距像素值。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Determines how much horizontal outer margin is added to the inline code in pixels.",
+                    "target": "确定内联代码水平方向添加多少像素的外边距。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled, highlights the active line outside codeblocks.",
+                    "target": "如果启用，将高亮显示代码块外的活动行。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled, external references will be updated automatically on load when possible.",
+                    "target": "如果启用，将在加载时尽可能自动更新外部引用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "This will return all inbuilt themes to the plugin defaults",
+                    "target": "这将把所有内置主题恢复为插件默认值。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Used for UI buttons like the copy code button.",
+                    "target": "用于UI按钮，如复制代码按钮。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Colour buttons use when activated.",
+                    "target": "颜色按钮激活时使用的颜色。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Parameters and language which would follow codeblock delimiter.",
+                    "target": "参数和语言，将跟随代码块分隔符。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Content for example codeblock.",
+                    "target": "示例代码块的内容。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Text to render as example inside code delimiters.",
+                    "target": "在代码分隔符内渲染为示例的文本。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Choose Settings Page",
+                    "target": "选择设置页面"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Choose Codeblock Settings",
+                    "target": "选择代码块设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Style Code on Export",
+                    "target": "导出时样式化代码"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Select Theme",
+                    "target": "选择主题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Add New Theme",
+                    "target": "添加新主题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Codeblock Background Colour",
+                    "target": "代码块背景颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Codeblock Text Colour",
+                    "target": "代码块文本颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Codeblock Curvature",
+                    "target": "代码块圆角"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Language Coloured Borders",
+                    "target": "语言着色边框"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Unwrap codeblock lines",
+                    "target": "取消代码块行换行"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Wrap Lines on Click",
+                    "target": "点击时换行"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable Line Numbers",
+                    "target": "启用行号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Gutter Background Colour",
+                    "target": "装订线背景颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Line Number Colour",
+                    "target": "行号颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Highlight Line Numbers",
+                    "target": "高亮行号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Indicate Current Line Number",
+                    "target": "指示当前行号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Header Background Colour",
+                    "target": "页眉背景颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Header Font Size",
+                    "target": "页眉字体大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Header Title Text Styling",
+                    "target": "页眉标题文本样式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Fold Placeholder Text",
+                    "target": "折叠占位文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Header Separator Colour",
+                    "target": "页眉分隔线颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Display Header Language Tags",
+                    "target": "显示标题语言标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Display Header Language Icons",
+                    "target": "显示标题语言图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Header Language Tag Background Colour",
+                    "target": "标题语言标签背景颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Header Language Tag Text Styling",
+                    "target": "标题语言标签文本样式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Language Icons Coloured",
+                    "target": "语言图标彩色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Language Icon Size",
+                    "target": "语言图标大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Display Repository",
+                    "target": "显示仓库"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Display Repository Name",
+                    "target": "显示仓库名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Display Reference Timestamp",
+                    "target": "显示参考时间戳"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Codeblock Active Line Highlight",
+                    "target": "代码块活动行高亮"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default Highlight Colour",
+                    "target": "默认高亮颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Add Alternative Highlight",
+                    "target": "添加替代高亮"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Gradient Highlighting",
+                    "target": "渐变高亮"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Exclude Languages",
+                    "target": "排除语言"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Whitelisted Processed Codeblocks",
+                    "target": "白名单已处理代码块"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Redirect Language Settings",
+                    "target": "重定向语言设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Syntax Highlight Inline Code",
+                    "target": "语法高亮内联代码"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Style Inline Code",
+                    "target": "样式内联代码"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Inline Code Title Colour",
+                    "target": "内联代码标题颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Inline Code Title Font Weight",
+                    "target": "内联代码标题字体粗细"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Inline Code Background Colour",
+                    "target": "内联代码背景颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Inline Code Text Colour",
+                    "target": "内联代码文本颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Inline Code Active Text Colour",
+                    "target": "内联代码活动文本颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Inline Code Font Weight",
+                    "target": "内联代码字体粗细"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Inline Code Curvature",
+                    "target": "内联代码圆角"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Inline Code Vertical Padding",
+                    "target": "内联代码垂直内边距"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Inline Code Horizontal Padding",
+                    "target": "内联代码水平内边距"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Inline Code Horizontal Margin",
+                    "target": "内联代码水平外边距"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Editor Active Line Highlight",
+                    "target": "编辑器活动行高亮"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "External References Automatic Update on Load",
+                    "target": "外部引用加载时自动更新"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Reset inbuilt themes",
+                    "target": "重置内置主题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Button Colour",
+                    "target": "按钮颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Button Active Colour",
+                    "target": "按钮激活颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Example Codeblock Parameter String",
+                    "target": "示例代码块参数字符串"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Inline Code Example",
+                    "target": "内联代码示例"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "New theme name",
+                    "target": "新主题名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Font",
+                    "target": "字体"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "e.g. error, warn",
+                    "target": "例如：error, warn"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Update theme",
+                    "target": "更新主题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Delete theme",
+                    "target": "删除主题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Save theme",
+                    "target": "保存主题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Restore default curvature",
+                    "target": "恢复默认曲率"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Restore default colour stop",
+                    "target": "恢复默认颜色停止点"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Restore default font size",
+                    "target": "恢复默认字体大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Toggle bold title text",
+                    "target": "切换粗体标题文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Toggle italic title text",
+                    "target": "切换斜体标题文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Toggle bold language tag text",
+                    "target": "切换粗体语言标签文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Toggle italic language tag text",
+                    "target": "切换斜体语言标签文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Restore default icon size",
+                    "target": "恢复默认图标大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Display Repository",
+                    "target": "显示仓库"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Display Repository Version",
+                    "target": "显示仓库版本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Display Timestamp",
+                    "target": "显示时间戳"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Restore default font weight",
+                    "target": "恢复默认字体粗细"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Restore default vertical padding",
+                    "target": "恢复默认垂直内边距"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Restore default horizontal padding",
+                    "target": "恢复默认水平内边距"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Restore default horizontal margin",
+                    "target": "恢复默认水平外边距"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Toggle editor active line highlighting",
+                    "target": "切换编辑器活动行高亮"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Toggle auto-update external references",
+                    "target": "切换自动更新外部引用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Restore default colour",
+                    "target": "恢复默认颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Delete highlight",
+                    "target": "删除高亮"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Warning: Couldn't parse calc string",
+                    "target": "警告：无法解析计算字符串"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Warning: Couldn't get current theme",
+                    "target": "警告：无法获取当前主题"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Select a theme first to delete",
+                    "target": "请先选择一个主题以删除"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "You cannot delete the default themes",
+                    "target": "您无法删除默认主题"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Set a name for your theme",
+                    "target": "为您的主题设置一个名称"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "You can't overwrite the default themes",
+                    "target": "您无法覆盖默认主题"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please enter a colour name.",
+                    "target": "请输入一个颜色名称。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Cannot override the default highlight parameter.",
+                    "target": "无法覆盖默认的高亮参数。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Cannot use other default parameters.",
+                    "target": "无法使用其他默认参数。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Invalid JSON",
+                    "target": "无效的JSON"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "body",
+                    "source": "Codeblock Body",
+                    "target": "Codeblock Body"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "picker",
+                    "target": "picker"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Unexpected element after head. Expected the element before `</head>`",
+                    "target": "在 head 之后出现了意外的元素。期望在 `</head>` 之前出现该元素"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Unexpected `>` or `->`. Expected `-->` to close comments",
+                    "target": "意外的 `>` 或 `->`。期望 `-->` 来关闭注释"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Unexpected `>`. Expected a closing `\"` or `'` after the public identifier",
+                    "target": "意外的 `>`。期望在公共标识符后出现闭合的 `\"` 或 `'`"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Unexpected `>`. Expected a closing `\"` or `'` after the identifier identifier",
+                    "target": "意外的 `>`。期望在标识符后出现闭合的 `\"` 或 `'`"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Unexpected `%c`. Expected `[0-9]` for decimal references or `[0-9a-fA-F]` for hexadecimal references",
+                    "target": "意外的 `%c`。期望十进制引用使用 `[0-9]`，十六进制引用使用 `[0-9a-fA-F]`"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Unexpected `<![CDATA[` in HTML. Remove it, use a comment, or encode special characters instead",
+                    "target": "HTML 中出现了意外的 `<![CDATA[`。请移除它，改用注释，或对特殊字符进行编码"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Unexpectedly high character reference. Expected character references to be at most hexadecimal 10ffff (or decimal 1114111)",
+                    "target": "字符引用异常高。期望字符引用最多为十六进制 10ffff（或十进制 1114111）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Unexpectedly closing tag. Expected other tags to be closed first",
+                    "target": "意外的闭合标签。期望先闭合其他标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Unexpected control character `%x`. Expected a non-control code point, 0x00, or ASCII whitespace",
+                    "target": "意外的控制字符 `%x`。期望一个非控制码点、0x00 或 ASCII 空白字符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Unexpectedly control character in reference. Expected a non-control code point, 0x00, or ASCII whitespace",
+                    "target": "引用中意外的控制字符。期望一个非控制码点、0x00 或 ASCII 空白字符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Unexpected text character `%c`. Only use text in `<noscript>`s in `<body>`",
+                    "target": "意外的文本字符 `%c`。仅在 `<body>` 中的 `<noscript>` 内使用文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Unexpectedly double attribute. Expected attributes to occur only once",
+                    "target": "意外的重复属性。期望每个属性只出现一次"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Unexpected attribute. Expected `>` instead",
+                    "target": "意外的属性。期望 `>` 代替"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Unexpected `%c-1`. Expected `>` instead",
+                    "target": "意外的 `%c-1`。期望 `>` 代替"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Unexpected end tag. Expected no end tag or another end tag",
+                    "target": "意外的结束标签。期望没有结束标签或另一个结束标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Unexpected end of file. Expected tag name instead",
+                    "target": "意外的文件结尾。期望标签名代替"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Unexpected end of file. Expected `]]>` to close the CDATA",
+                    "target": "意外的文件结尾。期望 `]]>` 来关闭 CDATA"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Unexpected end of file. Expected `-->` to close the comment",
+                    "target": "意外的文件结尾。期望 `-->` 来关闭注释"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Unexpected end of file. Expected a valid doctype (such as `<!doctype html>`)",
+                    "target": "意外的文件结尾。期望一个有效的文档类型（例如 `<!doctype html>`）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Unexpected end of file. Expected text or a closing tag",
+                    "target": "意外的文件结尾。期望文本或结束标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Unexpected end of file. Expected `>` to close the tag",
+                    "target": "意外的文件结尾。期望 `>` 来关闭标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Unexpected `%c-1`. Expected `-->` to close the comment",
+                    "target": "意外的 `%c-1`。期望 `-->` 来关闭注释"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Unexpected `%c`. Expected `<!--` to open the comment",
+                    "target": "意外的 `%c`。期望 `<!--` 来打开注释"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Unexpected sequence at `%c`. Expected `public` or `system`",
+                    "target": "在 `%c` 处出现意外序列。期望 `public` 或 `system`"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Unexpected `%c`. Expected an ASCII letter instead",
+                    "target": "意外的 `%c`。期望一个 ASCII 字母"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Unexpected doctype. Expected doctype before head",
+                    "target": "意外的文档类型。期望在 head 之前有文档类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Unexpected start tag `<head>`. Expected `<head>` directly after doctype",
+                    "target": "意外的开始标签 `<head>`。期望在文档类型之后直接出现 `<head>`"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Unexpected `%c-1`. Expected an attribute value or no `%c-1` instead",
+                    "target": "意外的 `%c-1`。期望属性值或没有 `%c-1`"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Expected a `<!doctype html>` before anything else",
+                    "target": "期望在之前有`<!doctype html>`"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Unexpected doctype end at `%c`. Expected `html` instead",
+                    "target": "在`%c`处遇到意外的文档类型结束。期望的是`html`"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Unexpected `%c`. Expected identifier for `public` instead",
+                    "target": "遇到意外的`%c`。期望的是用于`public`的标识符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Unexpected `%c`. Expected identifier for `system` instead (suggested: `\"about:legacy-compat\"`)",
+                    "target": "遇到意外的`%c`。期望的是用于`system`的标识符（建议：`\"about:legacy-compat\"`）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Unexpected `%c`. Expected `\"` or `'` instead",
+                    "target": "遇到意外的`%c`。期望的是`\"`或`'`"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Unexpected `%c`. Expected `;` instead",
+                    "target": "遇到意外的`%c`。期望的是`;`"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Unexpected `%c`. Expected ASCII whitespace instead",
+                    "target": "遇到意外的`%c`。期望的是ASCII空白字符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Unexpected `<!--`. Expected `-->`",
+                    "target": "遇到意外的`<!--`。期望的是`-->`"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Unexpected `<noscript>`. Expected a closing tag or a meta element",
+                    "target": "遇到意外的`<noscript>`。期望的是结束标签或meta元素"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Expected `<!doctype html>` or `<!doctype html system \"about:legacy-compat\">`",
+                    "target": "期望的是`<!doctype html>`或`<!doctype html system \"about:legacy-compat\">`"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Unexpected `/`. Expected `>` instead",
+                    "target": "意外的 `/`。期望的是 `>`"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Unexpected code point. Do not use noncharacters in HTML",
+                    "target": "意外的码点。不要在 HTML 中使用非字符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Unexpected code point `%x`. Do not use noncharacters in HTML",
+                    "target": "意外的码点 `%x`。不要在 HTML 中使用非字符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Unexpected code point. Do not use NULL characters in HTML",
+                    "target": "意外的码点。不要在 HTML 中使用 NULL 字符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Unexpected end of file. Expected closing tag instead",
+                    "target": "意外的文件结尾。期望的是结束标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Unexpected code point. Do not use lone surrogate characters in HTML",
+                    "target": "意外的码点。不要在 HTML 中使用孤立的代理项字符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Unexpected code point `%x`. Do not use lone surrogate characters in HTML",
+                    "target": "意外的码点 `%x`。不要在 HTML 中使用孤立的代理项字符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Unexpected character at `%c`. Expected `>`",
+                    "target": "在 `%c` 处出现意外的字符。期望的是 `>`"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Unexpected `%c`. Expected whitespace, `/`, `>`, `=`, or probably an ASCII letter",
+                    "target": "意外的 `%c`。期望的是空白、`/`、`>`、`=` 或可能是 ASCII 字母"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Unexpected `%c`. Quote the attribute value to include it",
+                    "target": "意外的 `%c`。请用引号括起属性值以包含它"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Unexpected `%c`. Add an attribute name before it",
+                    "target": "意外的 `%c`。请在其前添加属性名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Unexpected code point `%x`. Do not use NULL characters in HTML",
+                    "target": "意外的代码点 `%x`。不要在 HTML 中使用 NULL 字符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Unexpected `%c-1`. Expected it followed by `>` or in a quoted attribute value",
+                    "target": "意外的 `%c-1`。预期其后跟 `>` 或位于引用的属性值中"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Unexpected character reference. Expected known named character references",
+                    "target": "意外的字符引用。预期为已知的命名字符引用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "header",
+                    "source": "Codeblock Header",
+                    "target": "代码块标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "actuate",
+                    "target": "actuate"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "arcrole",
+                    "target": "arcrole"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "href",
+                    "target": "href"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "role",
+                    "target": "role"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "show",
+                    "target": "show"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "title",
+                    "target": "title"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "type",
+                    "target": "type"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "base",
+                    "target": "base"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "lang",
+                    "target": "lang"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "space",
+                    "target": "space"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "xmlns",
+                    "target": "xmlns"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "xlink",
+                    "target": "xlink"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Fold all codeblocks",
+                    "target": "折叠所有代码块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Unfold all codeblocks",
+                    "target": "展开所有代码块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Reset fold state for all codeblocks",
+                    "target": "重置所有代码块的折叠状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Update all external references in vault",
+                    "target": "更新库中所有外部引用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Update all external references in note",
+                    "target": "更新笔记中所有外部引用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Remove all unneeded external references",
+                    "target": "移除所有不需要的外部引用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Plain text",
+                    "target": "纯文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Settings for the Code Styler Plugin.",
+                    "target": "Code Styler 插件的设置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Theme Settings",
+                    "target": "主题设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Codeblock Appearance",
+                    "target": "代码块外观"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Gutter Appearance",
+                    "target": "行号区外观"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Header Appearance",
+                    "target": "标题外观"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Header Language Tag Appearance",
+                    "target": "标题语言标签外观"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Header Language Icon Appearance",
+                    "target": "标题语言图标外观"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "External Reference Indicators Appearance",
+                    "target": "外部引用指示符外观"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Highlighting Appearance",
+                    "target": "高亮外观"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Inline Code Appearance",
+                    "target": "内联代码外观"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Advanced Settings",
+                    "target": "高级设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "If you like this plugin, and would like to help support continued development, use the button below!",
+                    "target": "如果您喜欢这个插件，并希望帮助支持持续开发，请使用下面的按钮！"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "setName(\"Choose Settings Page\")",
+                    "target": "setName(\"选择设置页面\")"
+                },
+                {
+                    "source": "setDesc(\"Change dropdown to modify different groups of settings\")",
+                    "target": "setDesc(\"更改下拉菜单以修改不同的设置组\")"
+                },
+                {
+                    "source": "setName(\"Choose Codeblock Settings\")",
+                    "target": "setName(\"选择代码块设置\")"
+                },
+                {
+                    "source": "setDesc(\"Change dropdown to modify styles and settings of different codeblock sections\")",
+                    "target": "setDesc(\"更改下拉菜单以修改不同代码块部分的样式和设置\")"
+                },
+                {
+                    "source": "setName(\"Style Code on Export\")",
+                    "target": "setName(\"导出时样式化代码\")"
+                },
+                {
+                    "source": "setDesc(\"If enabled, styling will be applied when exporting to PDF.\")",
+                    "target": "setDesc(\"如果启用，导出为PDF时将应用样式。\")"
+                },
+                {
+                    "source": "setName(\"Select Theme\")",
+                    "target": "setName(\"选择主题\")"
+                },
+                {
+                    "source": "setTooltip(\"Update theme\")",
+                    "target": "setTooltip(\"更新主题\")"
+                },
+                {
+                    "source": "Notice(`${this.plugin.settings.selectedTheme} theme saved successfully!`)",
+                    "target": "Notice(`${this.plugin.settings.selectedTheme} 主题保存成功！`)"
+                },
+                {
+                    "source": "setTooltip(\"Delete theme\")",
+                    "target": "setTooltip(\"删除主题\")"
+                },
+                {
+                    "source": "Notice(\"Select a theme first to delete\")",
+                    "target": "Notice(\"请先选择一个主题以删除\")"
+                },
+                {
+                    "source": "Notice(\"You cannot delete the default themes\")",
+                    "target": "Notice(\"您无法删除默认主题\")"
+                },
+                {
+                    "source": "Notice(`${this.plugin.settings.selectedTheme} theme deleted successfully!`)",
+                    "target": "Notice(`${this.plugin.settings.selectedTheme} 主题已成功删除！`)"
+                },
+                {
+                    "source": "setName(\"Add New Theme\")",
+                    "target": "setName(\"添加新主题\")"
+                },
+                {
+                    "source": "setDesc(\"Create a new theme from the current settings.\")",
+                    "target": "setDesc(\"从当前设置创建一个新主题。\")"
+                },
+                {
+                    "source": "setPlaceholder(\"New theme name\")",
+                    "target": "setPlaceholder(\"新主题名称\")"
+                },
+                {
+                    "source": "setTooltip(\"Save theme\")",
+                    "target": "setTooltip(\"保存主题\")"
+                },
+                {
+                    "source": "Notice(\"Set a name for your theme\")",
+                    "target": "Notice(\"请为您的主题设置一个名称\")"
+                },
+                {
+                    "source": "Notice(\"You can't overwrite the default themes\")",
+                    "target": "Notice(\"您无法覆盖默认主题\")"
+                },
+                {
+                    "source": "Notice(`${this.plugin.settings.newTheme} theme updated successfully!`)",
+                    "target": "Notice(`${this.plugin.settings.newTheme} 主题已成功更新！`)"
+                },
+                {
+                    "source": "Notice(`${this.plugin.settings.newTheme} theme saved successfully!`)",
+                    "target": "Notice(`${this.plugin.settings.newTheme} 主题保存成功！`)"
+                },
+                {
+                    "source": "setName(\"Codeblock Background Colour\")",
+                    "target": "setName(\"代码块背景颜色\")"
+                },
+                {
+                    "source": "setName(\"Codeblock Text Colour\")",
+                    "target": "setName(\"代码块文本颜色\")"
+                },
+                {
+                    "source": "setName(\"Codeblock Curvature\")",
+                    "target": "setName(\"代码块圆角\")"
+                },
+                {
+                    "source": "setDesc(\"Determines how rounded the codeblocks appear in pixels.\")",
+                    "target": "setDesc(\"确定代码块在像素级别上的圆角程度。\")"
+                },
+                {
+                    "source": "setTooltip(\"Restore default curvature\")",
+                    "target": "setTooltip(\"恢复默认圆角\")"
+                },
+                {
+                    "source": "setName(\"Language Coloured Borders\")",
+                    "target": "setName(\"语言彩色边框\")"
+                },
+                {
+                    "source": "setDesc(\"If enabled, languages with icons display a left border with the colour of the icon. The slider sets the width of the border.\")",
+                    "target": "setDesc(\"如果启用，带有图标的语言将显示一个与图标颜色相同的左边框。滑块设置边框的宽度。\")"
+                },
+                {
+                    "source": "setTooltip(\"Restore default colour stop\")",
+                    "target": "setTooltip(\"恢复默认颜色停止点\")"
+                },
+                {
+                    "source": "setName(\"Unwrap codeblock lines\")",
+                    "target": "setName(\"取消代码块换行\")"
+                },
+                {
+                    "source": "setDesc(\"Choose whether to unwrap lines in reading mode\")",
+                    "target": "setDesc(\"选择是否在阅读模式下自动换行\")"
+                },
+                {
+                    "source": "setName(\"Wrap Lines on Click\")",
+                    "target": "setName(\"点击时换行\")"
+                },
+                {
+                    "source": "setDesc(\"If enabled, in reading mode, holding click on a codeblock will wrap the lines for better visibility.\")",
+                    "target": "setDesc(\"如果启用，在阅读模式下，按住点击代码块将自动换行以获得更好的可见性。\")"
+                },
+                {
+                    "source": "setName(\"Enable Line Numbers\")",
+                    "target": "setName(\"启用行号\")"
+                },
+                {
+                    "source": "setDesc(\"If disabled, the below settings are disabled too.\")",
+                    "target": "setDesc(\"如果禁用，以下设置也将被禁用。\")"
+                },
+                {
+                    "source": "setName(\"Gutter Background Colour\")",
+                    "target": "setName(\"装订线背景颜色\")"
+                },
+                {
+                    "source": "setName(\"Line Number Colour\")",
+                    "target": "setName(\"行号颜色\")"
+                },
+                {
+                    "source": "setName(\"Highlight Line Numbers\")",
+                    "target": "setName(\"高亮行号\")"
+                },
+                {
+                    "source": "setDesc(\"If enabled, highlights will also highlight the line numbers.\")",
+                    "target": "setDesc(\"如果启用，高亮也会同时高亮行号。\")"
+                },
+                {
+                    "source": "setName(\"Indicate Current Line Number\")",
+                    "target": "setName(\"指示当前行号\")"
+                },
+                {
+                    "source": "setDesc(\"If enabled, the current line number in codeblocks will be indicated with a separate colour.\")",
+                    "target": "setDesc(\"如果启用，代码块中的当前行号将使用单独的颜色指示。\")"
+                },
+                {
+                    "source": "setName(\"Header Background Colour\")",
+                    "target": "setName(\"标题背景颜色\")"
+                },
+                {
+                    "source": "setName(\"Header Font Size\")",
+                    "target": "setName(\"标题字体大小\")"
+                },
+                {
+                    "source": "setDesc(\"Set the font size for header language tags and titles.\")",
+                    "target": "setDesc(\"设置标题语言标签和标题的字体大小。\")"
+                },
+                {
+                    "source": "setTooltip(\"Restore default font size\")",
+                    "target": "setTooltip(\"恢复默认字体大小\")"
+                },
+                {
+                    "source": "setName(\"Header Title Text Styling\")",
+                    "target": "setName(\"标题标题文本样式\")"
+                },
+                {
+                    "source": "setDesc(\"Style the header title text using bold and italic toggles, by setting a font or by setting a text colour.\")",
+                    "target": "setDesc(\"通过使用粗体和斜体切换、设置字体或设置文本颜色来设置标题标题文本的样式。\")"
+                },
+                {
+                    "source": "setTooltip(\"Toggle bold title text\")",
+                    "target": "setTooltip(\"切换粗体标题文本\")"
+                },
+                {
+                    "source": "setTooltip(\"Toggle italic title text\")",
+                    "target": "setTooltip(\"切换斜体标题文本\")"
+                },
+                {
+                    "source": "setName(\"Fold Placeholder Text\")",
+                    "target": "setName(\"折叠占位符文本\")"
+                },
+                {
+                    "source": "setDesc(\"Title placeholder text for folded code when no title parameter is set.\")",
+                    "target": "setDesc(\"未设置标题参数时，折叠代码的标题占位文本。\")"
+                },
+                {
+                    "source": "setName(\"Header Separator Colour\")",
+                    "target": "setName(\"标题分隔线颜色\")"
+                },
+                {
+                    "source": "setDesc(\"Colour of the line separating the codeblock header and the codeblock.\")",
+                    "target": "setDesc(\"分隔代码块头部与代码块的线条颜色。\")"
+                },
+                {
+                    "source": "setName(\"Display Header Language Tags\")",
+                    "target": "setName(\"显示头部语言标签\")"
+                },
+                {
+                    "source": "setDesc('Determine when to show language tags in the header. \"Title Only\" will only show language tags when the title parameter is set.')",
+                    "target": "setDesc('确定何时在头部显示语言标签。\"仅标题\"表示仅在设置了标题参数时显示语言标签。')"
+                },
+                {
+                    "source": "setName(\"Display Header Language Icons\")",
+                    "target": "setName(\"显示头部语言图标\")"
+                },
+                {
+                    "source": "setDesc('Determine when to show language icons where available. \"Title Only\" will only show language tags when the title parameter is set.')",
+                    "target": "setDesc('确定何时在可用时显示语言图标。\"仅标题\"表示仅在设置了标题参数时显示语言标签。')"
+                },
+                {
+                    "source": "setName(\"Header Language Tag Background Colour\")",
+                    "target": "setName(\"头部语言标签背景颜色\")"
+                },
+                {
+                    "source": "setName(\"Header Language Tag Text Styling\")",
+                    "target": "setName(\"头部语言标签文本样式\")"
+                },
+                {
+                    "source": "setDesc(\"Style the header language tag text using bold and italic toggles, by setting a font or by setting a text colour.\")",
+                    "target": "setDesc(\"通过粗体和斜体开关、设置字体或设置文本颜色来设置头部语言标签文本的样式。\")"
+                },
+                {
+                    "source": "setTooltip(\"Toggle bold language tag text\")",
+                    "target": "setTooltip(\"切换粗体语言标签文本\")"
+                },
+                {
+                    "source": "setTooltip(\"Toggle italic language tag text\")",
+                    "target": "setTooltip(\"切换斜体语言标签文本\")"
+                },
+                {
+                    "source": "setName(\"Language Icons Coloured\")",
+                    "target": "setName(\"语言图标彩色\")"
+                },
+                {
+                    "source": "setDesc(\"If disabled, language icons will be black and white.\")",
+                    "target": "setDesc(\"如果禁用，语言图标将变为黑白。\")"
+                },
+                {
+                    "source": "setName(\"Language Icon Size\")",
+                    "target": "setName(\"语言图标大小\")"
+                },
+                {
+                    "source": "setDesc(\"Set the size of the displayed language icons.\")",
+                    "target": "setDesc(\"设置显示的语言图标的大小。\")"
+                },
+                {
+                    "source": "setTooltip(\"Restore default icon size\")",
+                    "target": "setTooltip(\"恢复默认图标大小\")"
+                },
+                {
+                    "source": "setName(\"Display Repository\")",
+                    "target": "setName(\"显示仓库\")"
+                },
+                {
+                    "source": "setDesc(\"Display repository in codeblock header for external references.\")",
+                    "target": "setDesc(\"在代码块头部显示外部引用的仓库信息。\")"
+                },
+                {
+                    "source": "setTooltip(\"Display Repository\")",
+                    "target": "setTooltip(\"显示仓库\")"
+                },
+                {
+                    "source": "setName(\"Display Repository Name\")",
+                    "target": "setName(\"显示仓库名称\")"
+                },
+                {
+                    "source": "setDesc(\"Display repository version in codeblock header for external references.\")",
+                    "target": "setDesc(\"在代码块标题中显示外部引用的仓库版本。\")"
+                },
+                {
+                    "source": "setTooltip(\"Display Repository Version\")",
+                    "target": "setTooltip(\"显示仓库版本\")"
+                },
+                {
+                    "source": "setName(\"Display Reference Timestamp\")",
+                    "target": "setName(\"显示引用时间戳\")"
+                },
+                {
+                    "source": "setDesc(\"Display the timestamp at which the reference was last updated.\")",
+                    "target": "setDesc(\"显示引用最后更新的时间戳。\")"
+                },
+                {
+                    "source": "setTooltip(\"Display Timestamp\")",
+                    "target": "setTooltip(\"显示时间戳\")"
+                },
+                {
+                    "source": "setName(\"Codeblock Active Line Highlight\")",
+                    "target": "setName(\"代码块活动行高亮\")"
+                },
+                {
+                    "source": "setDesc(\"If enabled, highlights the active line inside codeblocks.\")",
+                    "target": "setDesc(\"如果启用，则高亮代码块中的活动行。\")"
+                },
+                {
+                    "source": "setName(\"Default Highlight Colour\")",
+                    "target": "setName(\"默认高亮颜色\")"
+                },
+                {
+                    "source": "setDesc(\"Used by the 'hl' parameter.\")",
+                    "target": "setDesc(\"由 'hl' 参数使用。\")"
+                },
+                {
+                    "source": "setName(\"Add Alternative Highlight\")",
+                    "target": "setName(\"添加替代高亮\")"
+                },
+                {
+                    "source": "setDesc(\"Define a new alternative highlight name. The colour can be modified after it is added.\")",
+                    "target": "setDesc(\"定义一个新的替代高亮名称。添加后可以修改颜色。\")"
+                },
+                {
+                    "source": "setPlaceholder(\"e.g. error, warn\")",
+                    "target": "setPlaceholder(\"例如：错误、警告\")"
+                },
+                {
+                    "source": "Notice(\"Please enter a colour name.\")",
+                    "target": "Notice(\"请输入一个颜色名称。\")"
+                },
+                {
+                    "source": "Notice(`\"${this.plugin.settings.newHighlight}\" is not a valid colour name.`)",
+                    "target": "Notice(`\"${this.plugin.settings.newHighlight}\" 不是一个有效的颜色名称。`)"
+                },
+                {
+                    "source": "Notice(\"Cannot override the default highlight parameter.\")",
+                    "target": "Notice(\"无法覆盖默认高亮参数。\")"
+                },
+                {
+                    "source": "Notice(\"Cannot use other default parameters.\")",
+                    "target": "Notice(\"无法使用其他默认参数。\")"
+                },
+                {
+                    "source": "Notice(`A highlight with the name \"${this.plugin.settings.newHighlight}\" already exists.`)",
+                    "target": "Notice(`名为 \"${this.plugin.settings.newHighlight}\" 的高亮已存在。`)"
+                },
+                {
+                    "source": "Notice(`Added highlight \"${this.plugin.settings.newHighlight}\".`)",
+                    "target": "Notice(`已添加高亮 \"${this.plugin.settings.newHighlight}\"。`)"
+                },
+                {
+                    "source": "setName(\"Gradient Highlighting\")",
+                    "target": "setName(\"渐变高亮\")"
+                },
+                {
+                    "source": "setDesc(\"If enabled, highlights fade away to the right. The slider sets the gradient colour stop as a percentage.\")",
+                    "target": "setDesc(\"如果启用，高亮会向右淡出。滑块设置渐变颜色停止点的百分比。\")"
+                },
+                {
+                    "source": "setName(\"Exclude Languages\")",
+                    "target": "setName(\"排除语言\")"
+                },
+                {
+                    "source": "setDesc(\"Define languages in a comma separated list which the plugin should not decorate. You can use a wildcard (*) either at the beginning, or at the end. For example: ad-* will exclude codeblocks where the language starts with ad- e.g.: ad-info, ad-error etc.\")",
+                    "target": "setDesc(\"定义插件不应装饰的语言列表，以逗号分隔。您可以在开头或结尾使用通配符 (*)。例如：ad-* 将排除语言以 ad- 开头的代码块，例如：ad-info、ad-error 等。\")"
+                },
+                {
+                    "source": "setPlaceholder(`e.g. ${EXCLUDED_LANGUAGES} etc.`)",
+                    "target": "setPlaceholder(`例如 ${EXCLUDED_LANGUAGES} 等`)"
+                },
+                {
+                    "source": "setName(\"Whitelisted Processed Codeblocks\")",
+                    "target": "setName(\"白名单已处理的代码块\")"
+                },
+                {
+                    "source": "setDesc(\"Define languages in a comma separated list which the plugin should style despite being processed by another plugin. You can use a wildcard (*) either at the beginning, or at the end. For example: ad-* will exclude codeblocks where the language starts with ad- e.g.: ad-info, ad-error etc.\")",
+                    "target": "setDesc(\"定义插件应样式化的语言列表，以逗号分隔，即使这些语言已被其他插件处理。您可以在开头或结尾使用通配符 (*)。例如：ad-* 将排除语言以 ad- 开头的代码块，例如：ad-info、ad-error 等。\")"
+                },
+                {
+                    "source": "setPlaceholder(`e.g. ${WHITELIST_CODEBLOCKS} etc.`)",
+                    "target": "setPlaceholder(`例如 ${WHITELIST_CODEBLOCKS} 等`)"
+                },
+                {
+                    "source": "setName(\"Redirect Language Settings\")",
+                    "target": "setName(\"重定向语言设置\")"
+                },
+                {
+                    "source": "Notice(\"Invalid JSON\")",
+                    "target": "Notice(\"无效的 JSON\")"
+                },
+                {
+                    "source": "setName(\"Syntax Highlight Inline Code\")",
+                    "target": "setName(\"语法高亮内联代码\")"
+                },
+                {
+                    "source": "setDesc(\"If enabled, in reading mode, inline code will be syntax highlighted based on a language set with `{language} highlighted_inline_code`. See the README for more information.\")",
+                    "target": "setDesc(\"如果启用，在阅读模式下，内联代码将根据使用 `{language} highlighted_inline_code` 设置的语言进行语法高亮。更多信息请参阅 README。\")"
+                },
+                {
+                    "source": "setName(\"Style Inline Code\")",
+                    "target": "setName(\"样式内联代码\")"
+                },
+                {
+                    "source": "setDesc(\"If enabled, inline code will be styled.\")",
+                    "target": "setDesc(\"如果启用，内联代码将被样式化。\")"
+                },
+                {
+                    "source": "setName(\"Inline Code Title Colour\")",
+                    "target": "setName(\"内联代码标题颜色\")"
+                },
+                {
+                    "source": "setDesc(\"The text colour of inline code titles.\")",
+                    "target": "setDesc(\"内联代码标题的文本颜色。\")"
+                },
+                {
+                    "source": "setName(\"Inline Code Title Font Weight\")",
+                    "target": "setName(\"内联代码标题字体粗细\")"
+                },
+                {
+                    "source": "setDesc(\"Determines how bold inline code titles appear.\")",
+                    "target": "setDesc(\"确定内联代码标题的加粗程度。\")"
+                },
+                {
+                    "source": "setTooltip(\"Restore default font weight\")",
+                    "target": "setTooltip(\"恢复默认字体粗细\")"
+                },
+                {
+                    "source": "setName(\"Inline Code Background Colour\")",
+                    "target": "setName(\"内联代码背景颜色\")"
+                },
+                {
+                    "source": "setName(\"Inline Code Text Colour\")",
+                    "target": "setName(\"内联代码文本颜色\")"
+                },
+                {
+                    "source": "setName(\"Inline Code Active Text Colour\")",
+                    "target": "setName(\"内联代码活动文本颜色\")"
+                },
+                {
+                    "source": "setDesc(\"The text colour when editing inline code.\")",
+                    "target": "setDesc(\"编辑内联代码时的文本颜色。\")"
+                },
+                {
+                    "source": "setName(\"Inline Code Font Weight\")",
+                    "target": "setName(\"内联代码字体粗细\")"
+                },
+                {
+                    "source": "setDesc(\"Determines how bold inline code appears.\")",
+                    "target": "setDesc(\"决定内联代码的加粗程度。\")"
+                },
+                {
+                    "source": "setName(\"Inline Code Curvature\")",
+                    "target": "setName(\"内联代码圆角\")"
+                },
+                {
+                    "source": "setDesc(\"Determines how rounded inline code appear in pixels.\")",
+                    "target": "setDesc(\"决定内联代码的圆角像素值。\")"
+                },
+                {
+                    "source": "setName(\"Inline Code Vertical Padding\")",
+                    "target": "setName(\"内联代码垂直内边距\")"
+                },
+                {
+                    "source": "setDesc(\"Determines how much vertical inner padding in pixels inline code has.\")",
+                    "target": "setDesc(\"决定内联代码的垂直内边距像素值。\")"
+                },
+                {
+                    "source": "setTooltip(\"Restore default vertical padding\")",
+                    "target": "setTooltip(\"恢复默认垂直内边距\")"
+                },
+                {
+                    "source": "setName(\"Inline Code Horizontal Padding\")",
+                    "target": "setName(\"内联代码水平内边距\")"
+                },
+                {
+                    "source": "setDesc(\"Determines how much horizontal inner padding in pixels inline code has.\")",
+                    "target": "setDesc(\"确定内联代码在水平方向上的内边距（以像素为单位）。\")"
+                },
+                {
+                    "source": "setTooltip(\"Restore default horizontal padding\")",
+                    "target": "setTooltip(\"恢复默认水平内边距\")"
+                },
+                {
+                    "source": "setName(\"Inline Code Horizontal Margin\")",
+                    "target": "setName(\"内联代码水平外边距\")"
+                },
+                {
+                    "source": "setDesc(\"Determines how much horizontal outer margin is added to the inline code in pixels.\")",
+                    "target": "setDesc(\"确定内联代码在水平方向上的外边距（以像素为单位）。\")"
+                },
+                {
+                    "source": "setTooltip(\"Restore default horizontal margin\")",
+                    "target": "setTooltip(\"恢复默认水平外边距\")"
+                },
+                {
+                    "source": "setName(\"Editor Active Line Highlight\")",
+                    "target": "setName(\"编辑器活动行高亮\")"
+                },
+                {
+                    "source": "setDesc(\"If enabled, highlights the active line outside codeblocks.\")",
+                    "target": "setDesc(\"如果启用，将在代码块外部高亮显示活动行。\")"
+                },
+                {
+                    "source": "setTooltip(\"Toggle editor active line highlighting\")",
+                    "target": "setTooltip(\"切换编辑器活动行高亮\")"
+                },
+                {
+                    "source": "setName(\"External References Automatic Update on Load\")",
+                    "target": "setName(\"加载时自动更新外部引用\")"
+                },
+                {
+                    "source": "setDesc(\"If enabled, external references will be updated automatically on load when possible.\")",
+                    "target": "setDesc(\"如果启用，外部引用将在加载时尽可能自动更新。\")"
+                },
+                {
+                    "source": "setTooltip(\"Toggle auto-update external references\")",
+                    "target": "setTooltip(\"切换自动更新外部引用\")"
+                },
+                {
+                    "source": "setName(\"Reset inbuilt themes\")",
+                    "target": "setName(\"重置内置主题\")"
+                },
+                {
+                    "source": "setDesc(\"This will return all inbuilt themes to the plugin defaults\")",
+                    "target": "setDesc(\"这将把所有内置主题恢复为插件默认设置\")"
+                },
+                {
+                    "source": "setName(\"Button Colour\")",
+                    "target": "setName(\"按钮颜色\")"
+                },
+                {
+                    "source": "setDesc(\"Used for UI buttons like the copy code button.\")",
+                    "target": "setDesc(\"用于UI按钮，如复制代码按钮。\")"
+                },
+                {
+                    "source": "setName(\"Button Active Colour\")",
+                    "target": "setName(\"按钮激活颜色\")"
+                },
+                {
+                    "source": "setDesc(\"Colour buttons use when activated.\")",
+                    "target": "setDesc(\"按钮激活时使用的颜色。\")"
+                },
+                {
+                    "source": "setName(\"Example Codeblock Parameter String\")",
+                    "target": "setName(\"示例代码块参数字符串\")"
+                },
+                {
+                    "source": "setDesc(\"Parameters and language which would follow codeblock delimiter.\")",
+                    "target": "setDesc(\"代码块分隔符后的参数和语言。\")"
+                },
+                {
+                    "source": "setDesc(\"Content for example codeblock.\")",
+                    "target": "setDesc(\"示例代码块的内容。\")"
+                },
+                {
+                    "source": "setName(\"Inline Code Example\")",
+                    "target": "setName(\"内联代码示例\")"
+                },
+                {
+                    "source": "setDesc(\"Text to render as example inside code delimiters.\")",
+                    "target": "setDesc(\"在代码分隔符内渲染为示例的文本。\")"
+                },
+                {
+                    "source": "setTooltip(\"Restore default colour\")",
+                    "target": "setTooltip(\"恢复默认颜色\")"
+                },
+                {
+                    "source": "setDesc(`To highlight lines with this highlight, use the ${alternativeHighlightName} parameter.`)",
+                    "target": "setDesc(`要使用此高亮突出显示行，请使用 ${alternativeHighlightName} 参数。`)"
+                },
+                {
+                    "source": "setTooltip(\"Delete highlight\")",
+                    "target": "setTooltip(\"删除高亮\")"
+                },
+                {
+                    "source": "Notice(`Removed highlight \"${alternativeHighlightName}\".`)",
+                    "target": "Notice(`已移除高亮 \"${alternativeHighlightName}\"。`)"
+                },
+                {
+                    "source": "Notice(`Failed to parse code block arguments from line:\n${firstLineOfCode}\n\nFailed with error:\n${err}`)",
+                    "target": "Notice(`无法从行解析代码块参数：\n${firstLineOfCode}\n\n失败错误：\n${err}`)"
+                },
+                {
+                    "source": "error(`Metadata cache not found for file: ${sourcePath}`)",
+                    "target": "error(`未找到文件 ${sourcePath} 的元数据缓存`)"
+                },
+                {
+                    "source": "log(\"Loaded plugin: Code Styler\")",
+                    "target": "log(\"已加载插件：Code Styler\")"
+                },
+                {
+                    "source": "log(\"Unloaded plugin: Code Styler\")",
+                    "target": "log(\"已卸载插件：Code Styler\")"
+                },
+                {
+                    "source": "page = \"main\"",
+                    "target": "page = \"main\""
+                },
+                {
+                    "source": "text: \"Settings for the Code Styler Plugin.\"",
+                    "target": "text: \"代码样式器插件设置\""
+                },
+                {
+                    "source": "text: \"Theme Settings\"",
+                    "target": "text: \"主题设置\""
+                },
+                {
+                    "source": "text: \"Codeblock Appearance\"",
+                    "target": "text: \"代码块外观\""
+                },
+                {
+                    "source": "text: \"Gutter Appearance\"",
+                    "target": "text: \"装订线外观\""
+                },
+                {
+                    "source": "text: \"Header Appearance\"",
+                    "target": "text: \"页眉外观\""
+                },
+                {
+                    "source": "text: \"Header Language Tag Appearance\"",
+                    "target": "text: \"页眉语言标签外观\""
+                },
+                {
+                    "source": "text: \"Header Language Icon Appearance\"",
+                    "target": "text: \"页眉语言图标外观\""
+                },
+                {
+                    "source": "text: \"External Reference Indicators Appearance\"",
+                    "target": "text: \"外部引用指示器外观\""
+                },
+                {
+                    "source": "text: \"Highlighting Appearance\"",
+                    "target": "text: \"高亮外观\""
+                },
+                {
+                    "source": "text: \"Inline Code Appearance\"",
+                    "target": "text: \"内联代码外观\""
+                },
+                {
+                    "source": "text: \"Advanced Settings\"",
+                    "target": "text: \"高级设置\""
+                },
+                {
+                    "source": "text: \"If you like this plugin, and would like to help support continued development, use the button below!\"",
+                    "target": "text: \"如果您喜欢这个插件，并希望帮助支持其持续开发，请使用下面的按钮！\""
+                },
+                {
+                    "source": "link:\" + prop.slice(5).toLowerCase();\n  },\n  properties: {\n    xLinkActuate: null,\n    xLinkArcRole: null,\n    xLinkHref: null,\n    xLinkRole: null,\n    xLinkShow: null,\n    xLinkTitle: null,\n    xLinkType: null\n  }\n});\n\n// node_modules/property-information/lib/xml.js\nvar xml = create({\n  space: \"",
+                    "target": "link:\" + prop.slice(5).toLowerCase();\n  },\n  properties: {\n    xLinkActuate: null,\n    xLinkArcRole: null,\n    xLinkHref: null,\n    xLinkRole: null,\n    xLinkShow: null,\n    xLinkTitle: null,\n    xLinkType: null\n  }\n});\n\n// node_modules/property-information/lib/xml.js\nvar xml = create({\n  space: \""
+                },
+                {
+                    "source": "link: \"xmlns:xlink\"",
+                    "target": "link: \"xmlns:xlink\""
+                },
+                {
+                    "source": "name: \"class\"",
+                    "target": "name: \"class\""
+                },
+                {
+                    "source": "link: \"http://www.w3.org/1999/xlink\"",
+                    "target": "link: \"http://www.w3.org/1999/xlink\""
+                },
+                {
+                    "source": "name: \"\"",
+                    "target": "name: \"\""
+                },
+                {
+                    "source": "name: \"actuate\"",
+                    "target": "name: \"actuate\""
+                },
+                {
+                    "source": "name: \"arcrole\"",
+                    "target": "name: \"arcrole\""
+                },
+                {
+                    "source": "name: \"href\"",
+                    "target": "name: \"href\""
+                },
+                {
+                    "source": "name: \"role\"",
+                    "target": "name: \"role\""
+                },
+                {
+                    "source": "name: \"show\"",
+                    "target": "name: \"show\""
+                },
+                {
+                    "source": "name: \"title\"",
+                    "target": "name: \"title\""
+                },
+                {
+                    "source": "name: \"type\"",
+                    "target": "name: \"type\""
+                },
+                {
+                    "source": "name: \"base\"",
+                    "target": "name: \"base\""
+                },
+                {
+                    "source": "name: \"lang\"",
+                    "target": "name: \"lang\""
+                },
+                {
+                    "source": "name: \"space\"",
+                    "target": "name: \"space\""
+                },
+                {
+                    "source": "name: \"xmlns\"",
+                    "target": "name: \"xmlns\""
+                },
+                {
+                    "source": "name: \"xlink\"",
+                    "target": "name: \"xlink\""
+                },
+                {
+                    "source": "name = \"\"",
+                    "target": "name = \"\""
+                },
+                {
+                    "source": "description: \"Unexpected element after head. Expected the element before `</head>`\"",
+                    "target": "description: \"head 后出现意外元素。期望在 `</head>` 之前出现该元素\""
+                },
+                {
+                    "source": "description: \"Unexpected `>` or `->`. Expected `-->` to close comments\"",
+                    "target": "description: \"出现意外的 `>` 或 `->`。期望使用 `-->` 来关闭注释\""
+                },
+                {
+                    "source": "description: \"Unexpected `%c`. Expected `[0-9]` for decimal references or `[0-9a-fA-F]` for hexadecimal references\"",
+                    "target": "description: \"出现意外的 `%c`。十进制引用期望 `[0-9]`，十六进制引用期望 `[0-9a-fA-F]`\""
+                },
+                {
+                    "source": "description: \"Unexpected `<![CDATA[` in HTML. Remove it, use a comment, or encode special characters instead\"",
+                    "target": "description: \"HTML 中出现意外的 `<![CDATA[`。请移除它，改用注释，或对特殊字符进行编码\""
+                },
+                {
+                    "source": "description: \"Unexpectedly high character reference. Expected character references to be at most hexadecimal 10ffff (or decimal 1114111)\"",
+                    "target": "description: \"字符引用值过高。期望字符引用最多为十六进制 10ffff（或十进制 1114111）\""
+                },
+                {
+                    "source": "description: \"Unexpectedly closing tag. Expected other tags to be closed first\"",
+                    "target": "description: \"出现意外的结束标签。期望先关闭其他标签\""
+                },
+                {
+                    "source": "description: \"Unexpected control character `%x`. Expected a non-control code point, 0x00, or ASCII whitespace\"",
+                    "target": "description: \"出现意外的控制字符 `%x`。期望非控制码点、0x00 或 ASCII 空白字符\""
+                },
+                {
+                    "source": "description: \"Unexpectedly control character in reference. Expected a non-control code point, 0x00, or ASCII whitespace\"",
+                    "target": "description: \"引用中出现意外的控制字符。期望非控制码点、0x00 或 ASCII 空白字符\""
+                },
+                {
+                    "source": "description: \"Unexpected text character `%c`. Only use text in `<noscript>`s in `<body>`\"",
+                    "target": "description: \"出现意外的文本字符 `%c`。仅在 `<body>` 中的 `<noscript>` 内使用文本\""
+                },
+                {
+                    "source": "description: \"Unexpectedly double attribute. Expected attributes to occur only once\"",
+                    "target": "description: \"意外的重复属性。期望每个属性只出现一次\""
+                },
+                {
+                    "source": "description: \"Unexpected attribute. Expected `>` instead\"",
+                    "target": "description: \"意外的属性。期望出现 `>`\""
+                },
+                {
+                    "source": "description: \"Unexpected `%c-1`. Expected `>` instead\"",
+                    "target": "description: \"意外的 `%c-1`。期望出现 `>`\""
+                },
+                {
+                    "source": "description: \"Unexpected end tag. Expected no end tag or another end tag\"",
+                    "target": "description: \"意外的结束标签。期望没有结束标签或另一个结束标签\""
+                },
+                {
+                    "source": "description: \"Unexpected end of file. Expected tag name instead\"",
+                    "target": "description: \"意外的文件结尾。期望出现标签名称\""
+                },
+                {
+                    "source": "description: \"Unexpected end of file. Expected `]]>` to close the CDATA\"",
+                    "target": "description: \"意外的文件结尾。期望出现 `]]>` 来关闭 CDATA\""
+                },
+                {
+                    "source": "description: \"Unexpected end of file. Expected `-->` to close the comment\"",
+                    "target": "description: \"意外的文件结尾。期望出现 `-->` 来关闭注释\""
+                },
+                {
+                    "source": "description: \"Unexpected end of file. Expected a valid doctype (such as `<!doctype html>`)\"",
+                    "target": "description: \"意外的文件结尾。期望出现有效的文档类型（例如 `<!doctype html>`）\""
+                },
+                {
+                    "source": "description: \"Unexpected end of file. Expected text or a closing tag\"",
+                    "target": "description: \"意外的文件结尾。期望出现文本或结束标签\""
+                },
+                {
+                    "source": "description: \"Unexpected end of file. Expected `>` to close the tag\"",
+                    "target": "description: \"意外的文件结尾。期望出现 `>` 来关闭标签\""
+                },
+                {
+                    "source": "description: \"Unexpected `%c-1`. Expected `-->` to close the comment\"",
+                    "target": "description: \"意外的 `%c-1`。期望 `-->` 来关闭注释\""
+                },
+                {
+                    "source": "description: \"Unexpected `%c`. Expected `<!--` to open the comment\"",
+                    "target": "description: \"意外的 `%c`。期望 `<!--` 来打开注释\""
+                },
+                {
+                    "source": "description: \"Unexpected sequence at `%c`. Expected `public` or `system`\"",
+                    "target": "description: \"在 `%c` 处出现意外序列。期望 `public` 或 `system`\""
+                },
+                {
+                    "source": "description: \"Unexpected `%c`. Expected an ASCII letter instead\"",
+                    "target": "description: \"意外的 `%c`。期望一个 ASCII 字母\""
+                },
+                {
+                    "source": "description: \"Unexpected doctype. Expected doctype before head\"",
+                    "target": "description: \"意外的文档类型。期望在 head 之前有文档类型\""
+                },
+                {
+                    "source": "description: \"Unexpected start tag `<head>`. Expected `<head>` directly after doctype\"",
+                    "target": "description: \"意外的开始标签 `<head>`。期望在文档类型之后直接出现 `<head>`\""
+                },
+                {
+                    "source": "description: \"Unexpected `%c-1`. Expected an attribute value or no `%c-1` instead\"",
+                    "target": "description: \"意外的 `%c-1`。期望一个属性值或没有 `%c-1`\""
+                },
+                {
+                    "source": "description: \"Expected a `<!doctype html>` before anything else\"",
+                    "target": "description: \"期望在任何其他内容之前有一个 `<!doctype html>`\""
+                },
+                {
+                    "source": "description: \"Unexpected doctype end at `%c`. Expected `html` instead\"",
+                    "target": "description: \"在 `%c` 处意外的文档类型结束。期望 `html`\""
+                },
+                {
+                    "source": "description: \"Unexpected `%c`. Expected identifier for `public` instead\"",
+                    "target": "description: \"意外的 `%c`。期望 `public` 的标识符\""
+                },
+                {
+                    "source": "description: 'Unexpected `%c`. Expected identifier for `system` instead (suggested: `\"about:legacy-compat\"`)'",
+                    "target": "description: '意外的 `%c`。应为 `system` 的标识符（建议：`\"about:legacy-compat\"`）'"
+                },
+                {
+                    "source": "description: \"Unexpected `%c`. Expected `;` instead\"",
+                    "target": "description: \"意外的 `%c`。应为 `;`\""
+                },
+                {
+                    "source": "description: \"Unexpected `%c`. Expected ASCII whitespace instead\"",
+                    "target": "description: \"意外的 `%c`。应为 ASCII 空白字符\""
+                },
+                {
+                    "source": "description: \"Unexpected `<!--`. Expected `-->`\"",
+                    "target": "description: \"意外的 `<!--`。应为 `-->`\""
+                },
+                {
+                    "source": "description: \"Unexpected `<noscript>`. Expected a closing tag or a meta element\"",
+                    "target": "description: \"意外的 `<noscript>`。应为结束标签或 meta 元素\""
+                },
+                {
+                    "source": "description: 'Expected `<!doctype html>` or `<!doctype html system \"about:legacy-compat\">`'",
+                    "target": "description: '应为 `<!doctype html>` 或 `<!doctype html system \"about:legacy-compat\">`'"
+                },
+                {
+                    "source": "description: \"Unexpected `/`. Expected `>` instead\"",
+                    "target": "description: \"意外的 `/`。应为 `>`\""
+                },
+                {
+                    "source": "description: \"Unexpected code point. Do not use noncharacters in HTML\"",
+                    "target": "description: \"意外的码点。不要在 HTML 中使用非字符\""
+                },
+                {
+                    "source": "description: \"Unexpected code point `%x`. Do not use noncharacters in HTML\"",
+                    "target": "description: \"意外的码点 `%x`。不要在 HTML 中使用非字符\""
+                },
+                {
+                    "source": "description: \"Unexpected code point. Do not use NULL characters in HTML\"",
+                    "target": "description: \"意外的码点。不要在 HTML 中使用 NULL 字符\""
+                },
+                {
+                    "source": "description: \"Unexpected end of file. Expected closing tag instead\"",
+                    "target": "description: \"意外的文件结尾。应为结束标签\""
+                },
+                {
+                    "source": "description: \"Unexpected code point. Do not use lone surrogate characters in HTML\"",
+                    "target": "description: \"意外的码点。不要在HTML中使用孤立的代理项字符\""
+                },
+                {
+                    "source": "description: \"Unexpected code point `%x`. Do not use lone surrogate characters in HTML\"",
+                    "target": "description: \"意外的码点 `%x`。不要在HTML中使用孤立的代理项字符\""
+                },
+                {
+                    "source": "description: \"Unexpected character at `%c`. Expected `>`\"",
+                    "target": "description: \"`%c` 处出现意外字符。应为 `>`\""
+                },
+                {
+                    "source": "description: \"Unexpected `%c`. Expected whitespace, `/`, `>`, `=`, or probably an ASCII letter\"",
+                    "target": "description: \"意外的 `%c`。应为空白、`/`、`>`、`=` 或可能为ASCII字母\""
+                },
+                {
+                    "source": "description: \"Unexpected `%c`. Quote the attribute value to include it\"",
+                    "target": "description: \"意外的 `%c`。请用引号括起属性值以包含它\""
+                },
+                {
+                    "source": "description: \"Unexpected `%c`. Add an attribute name before it\"",
+                    "target": "description: \"意外的 `%c`。请在其前添加属性名称\""
+                },
+                {
+                    "source": "description: \"Unexpected code point `%x`. Do not use NULL characters in HTML\"",
+                    "target": "description: \"意外的码点 `%x`。不要在HTML中使用NULL字符\""
+                },
+                {
+                    "source": "description: \"Unexpected `%c-1`. Expected it followed by `>` or in a quoted attribute value\"",
+                    "target": "description: \"意外的 `%c-1`。应后跟 `>` 或位于带引号的属性值中\""
+                },
+                {
+                    "source": "description: \"Unexpected character reference. Expected known named character references\"",
+                    "target": "description: \"意外的字符引用。应为已知的命名字符引用\""
+                },
+                {
+                    "source": "name: \"Fold all codeblocks\"",
+                    "target": "name: \"折叠所有代码块\""
+                },
+                {
+                    "source": "name: \"Unfold all codeblocks\"",
+                    "target": "name: \"展开所有代码块\""
+                },
+                {
+                    "source": "name: \"Reset fold state for all codeblocks\"",
+                    "target": "name: \"重置所有代码块的折叠状态\""
+                },
+                {
+                    "source": "name: \"Update all external references in vault\"",
+                    "target": "name: \"更新库中所有外部引用\""
+                },
+                {
+                    "source": "name: \"Update all external references in note\"",
+                    "target": "name: \"更新笔记中所有外部引用\""
+                },
+                {
+                    "source": "name: \"Remove all unneeded external references\"",
+                    "target": "name: \"移除所有不需要的外部引用\""
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,448 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-image-auto-upload-plugin",
+        "version": "1.0.0",
+        "title": "Image auto upload",
+        "description": "Image auto upload Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "4.1.0",
+        "author": "knudxiao"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "PicGo",
+                    "target": "PicGo"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "none",
+                    "target": "无"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "origin",
+                    "target": "原始"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed request: ",
+                    "target": "请求失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "response",
+                    "target": "响应"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Upload",
+                    "target": "上传"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Can only work when remote server mode is off.",
+                    "target": "仅在远程服务器模式关闭时可用。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "unknown uploader",
+                    "target": "未知上传器"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Upload error",
+                    "target": "上传错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Terminal closed",
+                    "target": "终端已关闭"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "User interruption with CTRL-C",
+                    "target": "用户通过 CTRL-C 中断"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "User interruption with CTRL-\\",
+                    "target": "用户通过 CTRL-\\ 中断"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Invalid machine instruction",
+                    "target": "无效的机器指令"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Debugger breakpoint",
+                    "target": "调试器断点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Aborted",
+                    "target": "已中止"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Bus error due to misaligned, non-existing address or paging error",
+                    "target": "由于未对齐、不存在的地址或分页错误导致的总线错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Command should be emulated but is not implemented",
+                    "target": "命令应被模拟但未实现"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Floating point arithmetic error",
+                    "target": "浮点算术错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Forced termination",
+                    "target": "强制终止"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Application-specific signal",
+                    "target": "应用特定信号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Segmentation fault",
+                    "target": "段错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Broken pipe or socket",
+                    "target": "管道或套接字断开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Timeout or timer",
+                    "target": "超时或定时器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Termination",
+                    "target": "终止"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Stack is empty or overflowed",
+                    "target": "栈为空或溢出"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Child process terminated, paused or unpaused",
+                    "target": "子进程终止、暂停或恢复"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Unpaused",
+                    "target": "已恢复"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Paused",
+                    "target": "已暂停"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Paused using CTRL-Z or \"suspend\"",
+                    "target": "使用CTRL-Z或\"suspend\"暂停"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Background process cannot read terminal input",
+                    "target": "后台进程无法读取终端输入"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "User interruption with CTRL-BREAK",
+                    "target": "用户使用CTRL-BREAK中断"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Background process cannot write to terminal output",
+                    "target": "后台进程无法写入终端输出"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Socket received out-of-band data",
+                    "target": "套接字接收到带外数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Process timed out",
+                    "target": "进程超时"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "File too big",
+                    "target": "文件过大"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Terminal window size changed",
+                    "target": "终端窗口大小已更改"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "I/O is available",
+                    "target": "I/O可用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Watched event",
+                    "target": "监视的事件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Request for process information",
+                    "target": "请求进程信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Device running out of power",
+                    "target": "设备电量不足"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Invalid system call",
+                    "target": "无效的系统调用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Application-specific signal (realtime)",
+                    "target": "应用特定信号（实时）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "Upload all images",
+                    "target": "上传所有图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "Download all images",
+                    "target": "下载所有图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Upload all images",
+                    "target": "上传所有图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Download all images",
+                    "target": "下载所有图片"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "Notice(\"Can only work when remote server mode is off.\")",
+                    "target": "Notice(\"Can only work when remote server mode is off.\")"
+                },
+                {
+                    "source": "Notice(\"unknown uploader\")",
+                    "target": "Notice(\"unknown uploader\")"
+                },
+                {
+                    "source": "Notice(\"Upload error\")",
+                    "target": "Notice(\"Upload error\")"
+                },
+                {
+                    "source": "Notice(`共找到${imageList.length}个图像文件，开始上传`)",
+                    "target": "Notice(`共找到${imageList.length}个图像文件，开始上传`)"
+                },
+                {
+                    "source": "error(\"Failed request: \", reason);\n        let progressText = imageAutoUploadPlugin.progressTextFor(pasteId);\n        imageAutoUploadPlugin.replaceFirstOccurrence(editor, progressText, \"⚠️upload failed, check dev console\")",
+                    "target": "error(\"Failed request: \", reason);\n        let progressText = imageAutoUploadPlugin.progressTextFor(pasteId);\n        imageAutoUploadPlugin.replaceFirstOccurrence(editor, progressText, \"⚠️upload failed, check dev console\")"
+                },
+                {
+                    "source": "name: ''",
+                    "target": "name: ''"
+                },
+                {
+                    "source": "description:\"Terminal closed\"",
+                    "target": "description:\"Terminal closed\""
+                },
+                {
+                    "source": "description:\"User interruption with CTRL-C\"",
+                    "target": "description:\"User interruption with CTRL-C\""
+                },
+                {
+                    "source": "description:\"User interruption with CTRL-\\\\\",\nstandard:\"",
+                    "target": "description:\"User interruption with CTRL-\\\\\",\nstandard:\""
+                },
+                {
+                    "source": "description:\"Invalid machine instruction\"",
+                    "target": "description:\"Invalid machine instruction\""
+                },
+                {
+                    "source": "description:\"Debugger breakpoint\"",
+                    "target": "description:\"Debugger breakpoint\""
+                },
+                {
+                    "source": "description:\n\"Bus error due to misaligned, non-existing address or paging error\"",
+                    "target": "description:\n\"Bus error due to misaligned, non-existing address or paging error\""
+                },
+                {
+                    "source": "description:\"Command should be emulated but is not implemented\"",
+                    "target": "description:\"Command should be emulated but is not implemented\""
+                },
+                {
+                    "source": "description:\"Floating point arithmetic error\"",
+                    "target": "description:\"Floating point arithmetic error\""
+                },
+                {
+                    "source": "description:\"Forced termination\"",
+                    "target": "description:\"Forced termination\""
+                },
+                {
+                    "source": "description:\"Application-specific signal\"",
+                    "target": "description:\"Application-specific signal\""
+                },
+                {
+                    "source": "description:\"Segmentation fault\"",
+                    "target": "description:\"Segmentation fault\""
+                },
+                {
+                    "source": "description:\"Broken pipe or socket\"",
+                    "target": "description:\"Broken pipe or socket\""
+                },
+                {
+                    "source": "description:\"Timeout or timer\"",
+                    "target": "description:\"Timeout or timer\""
+                },
+                {
+                    "source": "description:\"Stack is empty or overflowed\"",
+                    "target": "description:\"Stack is empty or overflowed\""
+                },
+                {
+                    "source": "description:\"Child process terminated, paused or unpaused\"",
+                    "target": "description:\"Child process terminated, paused or unpaused\""
+                },
+                {
+                    "source": "description:\"Background process cannot read terminal input\"",
+                    "target": "description:\"Background process cannot read terminal input\""
+                },
+                {
+                    "source": "description:\"User interruption with CTRL-BREAK\"",
+                    "target": "description:\"User interruption with CTRL-BREAK\""
+                },
+                {
+                    "source": "description:\"Background process cannot write to terminal output\"",
+                    "target": "description:\"Background process cannot write to terminal output\""
+                },
+                {
+                    "source": "description:\"Socket received out-of-band data\"",
+                    "target": "description:\"Socket received out-of-band data\""
+                },
+                {
+                    "source": "description:\"Process timed out\"",
+                    "target": "description:\"Process timed out\""
+                },
+                {
+                    "source": "description:\"File too big\"",
+                    "target": "description:\"File too big\""
+                },
+                {
+                    "source": "description:\"Terminal window size changed\"",
+                    "target": "description:\"Terminal window size changed\""
+                },
+                {
+                    "source": "description:\"I/O is available\"",
+                    "target": "description:\"I/O is available\""
+                },
+                {
+                    "source": "description:\"Watched event\"",
+                    "target": "description:\"Watched event\""
+                },
+                {
+                    "source": "description:\"Request for process information\"",
+                    "target": "description:\"Request for process information\""
+                },
+                {
+                    "source": "description:\"Device running out of power\"",
+                    "target": "description:\"Device running out of power\""
+                },
+                {
+                    "source": "description:\"Invalid system call\"",
+                    "target": "description:\"Invalid system call\""
+                },
+                {
+                    "source": "description:\"Application-specific signal (realtime)\"",
+                    "target": "description:\"Application-specific signal (realtime)\""
+                },
+                {
+                    "source": "name = 'MaxBufferError'",
+                    "target": "name = 'MaxBufferError'"
+                },
+                {
+                    "source": "name: \"Upload all images\"",
+                    "target": "name: \"Upload all images\""
+                },
+                {
+                    "source": "name: \"Download all images\"",
+                    "target": "name: \"Download all images\""
+                },
+                {
+                    "source": "name = \"\"",
+                    "target": "name = \"\""
+                }
+            ]
+        }
+    }
+}
