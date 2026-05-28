@@ -1,0 +1,854 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "css-editor",
+        "version": "1.0.0",
+        "title": "CSS Editor",
+        "description": "CSS Editor Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.14.1",
+        "author": "knudxiao"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Enter to create",
+                    "target": "按回车创建"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "search-input-container document-search-input",
+                    "target": "search-input-container document-search-input"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "label",
+                    "target": "label"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "input",
+                    "target": "input"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Save",
+                    "target": "保存"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Cancel",
+                    "target": "取消"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Delete",
+                    "target": "删除"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Toggle line wrap in the editor.",
+                    "target": "在编辑器中切换换行显示。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Adjust the amount of spaces used for indentation.",
+                    "target": "调整缩进使用的空格数量。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show line numbers relative to cursor position.",
+                    "target": "显示相对于光标位置的行号。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Ask before deleting a file.",
+                    "target": "删除文件前询问确认。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Line wrap",
+                    "target": "自动换行"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Indent size",
+                    "target": "缩进大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Relative line numbers",
+                    "target": "相对行号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Confirm file deletion",
+                    "target": "确认文件删除"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "CSS snippet file name (ex: snippet.css)",
+                    "target": "CSS 代码片段文件名（例如：snippet.css）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Find or create a CSS snippet...",
+                    "target": "查找或创建 CSS 代码片段..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Rename CSS snippet",
+                    "target": "重命名 CSS 代码片段"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Delete CSS snippet",
+                    "target": "删除 CSS 代码片段"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Create CSS snippet",
+                    "target": "创建 CSS 代码片段"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Find... ",
+                    "target": "查找... "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Delete snippet",
+                    "target": "删除片段"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Previous\n⇧ F3",
+                    "target": "上一个\n⇧ F3"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Next\nF3",
+                    "target": "下一个\nF3"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Find all\n⌥ Enter",
+                    "target": "查找全部\n⌥ Enter"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Exit search",
+                    "target": "退出搜索"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Restore default",
+                    "target": "恢复默认"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to parse comment as CSS, skipping color detection:",
+                    "target": "无法将注释解析为CSS，跳过颜色检测："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "\"···\"",
+                    "target": "\"···\""
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "'ƒ'",
+                    "target": "'ƒ'"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "'○'",
+                    "target": "'○'"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "'◌'",
+                    "target": "'◌'"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "'𝑥'",
+                    "target": "'𝑥'"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "'𝐶'",
+                    "target": "'𝐶'"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "'𝑡'",
+                    "target": "'𝑡'"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "'∪'",
+                    "target": "'∪'"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "'□'",
+                    "target": "'□'"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "'🔑︎'",
+                    "target": "'🔑︎'"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "'▢'",
+                    "target": "'▢'"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "colorscheme",
+                    "target": "colorscheme"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "map",
+                    "target": "map"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "imap",
+                    "target": "imap"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "nmap",
+                    "target": "nmap"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "vmap",
+                    "target": "vmap"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "omap",
+                    "target": "omap"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "noremap",
+                    "target": "noremap"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "nnoremap",
+                    "target": "nnoremap"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "vnoremap",
+                    "target": "vnoremap"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "inoremap",
+                    "target": "inoremap"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "onoremap",
+                    "target": "onoremap"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "unmap",
+                    "target": "unmap"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "mapclear",
+                    "target": "mapclear"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "nmapclear",
+                    "target": "nmapclear"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "vmapclear",
+                    "target": "vmapclear"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "imapclear",
+                    "target": "imapclear"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "omapclear",
+                    "target": "omapclear"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "write",
+                    "target": "write"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "undo",
+                    "target": "undo"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "redo",
+                    "target": "redo"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "set",
+                    "target": "set"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "setlocal",
+                    "target": "setlocal"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "setglobal",
+                    "target": "setglobal"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "sort",
+                    "target": "sort"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "substitute",
+                    "target": "substitute"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "startinsert",
+                    "target": "startinsert"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "nohlsearch",
+                    "target": "nohlsearch"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "yank",
+                    "target": "yank"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "delmarks",
+                    "target": "delmarks"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "marks",
+                    "target": "marks"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "registers",
+                    "target": "registers"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "vglobal",
+                    "target": "vglobal"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "delete",
+                    "target": "delete"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "join",
+                    "target": "join"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "normal",
+                    "target": "normal"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "global",
+                    "target": "global"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "obsidian",
+                    "target": "obsidian"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "css",
+                    "target": "css"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create CSS snippet",
+                    "target": "创建 CSS 代码片段"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open quick switcher",
+                    "target": "打开快速切换器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Delete CSS snippet",
+                    "target": "删除 CSS 代码片段"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle the enabled/disabled state of CSS snippet",
+                    "target": "切换CSS代码片段启用/禁用状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placement",
+                    "source": "top",
+                    "target": "top"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "This action cannot be undone.",
+                    "target": "此操作无法撤销。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "type",
+                    "source": "checkbox",
+                    "target": "checkbox"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "type",
+                    "source": "text",
+                    "target": "text"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "error(`[CSS Editor]: ${message}`)",
+                    "target": "error(`[CSS Editor]: ${message}`)"
+                },
+                {
+                    "source": "setText(\"Rename CSS snippet\")",
+                    "target": "setText(\"Rename CSS snippet\")"
+                },
+                {
+                    "source": "setPlaceholder(\"CSS snippet file name (ex: snippet.css)\")",
+                    "target": "setPlaceholder(\"CSS snippet file name (ex: snippet.css)\")"
+                },
+                {
+                    "source": "setText(\"Delete CSS snippet\")",
+                    "target": "setText(\"Delete CSS snippet\")"
+                },
+                {
+                    "source": "setText(`${matchIndex + 1} / ${count}`)",
+                    "target": "setText(`${matchIndex + 1} / ${count}`)"
+                },
+                {
+                    "source": "setTitle(\"Find... \")",
+                    "target": "setTitle(\"Find... \")"
+                },
+                {
+                    "source": "setTitle(\"Delete snippet\")",
+                    "target": "setTitle(\"Delete snippet\")"
+                },
+                {
+                    "source": "setPlaceholder(\"Find or create a CSS snippet...\")",
+                    "target": "setPlaceholder(\"Find or create a CSS snippet...\")"
+                },
+                {
+                    "source": "appendText(\n                  `${getSnippetDirectory(this.app)}${item.item.name}`\n                )",
+                    "target": "appendText(\n                  `${getSnippetDirectory(this.app)}${item.item.name}`\n                )"
+                },
+                {
+                    "source": "appendText(\"Enter to create\")",
+                    "target": "appendText(\"Enter to create\")"
+                },
+                {
+                    "source": "Notice(`\"${item.name}\" was deleted.`)",
+                    "target": "Notice(`\"${item.name}\" was deleted.`)"
+                },
+                {
+                    "source": "setText(\"Create CSS snippet\")",
+                    "target": "setText(\"Create CSS snippet\")"
+                },
+                {
+                    "source": "setName(\"Line wrap\")",
+                    "target": "setName(\"Line wrap\")"
+                },
+                {
+                    "source": "setDesc(\"Toggle line wrap in the editor.\")",
+                    "target": "setDesc(\"Toggle line wrap in the editor.\")"
+                },
+                {
+                    "source": "setName(\"Indent size\")",
+                    "target": "setName(\"Indent size\")"
+                },
+                {
+                    "source": "setDesc(\"Adjust the amount of spaces used for indentation.\")",
+                    "target": "setDesc(\"Adjust the amount of spaces used for indentation.\")"
+                },
+                {
+                    "source": "setTooltip(\"Restore default\")",
+                    "target": "setTooltip(\"Restore default\")"
+                },
+                {
+                    "source": "setName(\"Relative line numbers\")",
+                    "target": "setName(\"Relative line numbers\")"
+                },
+                {
+                    "source": "setDesc(\"Show line numbers relative to cursor position.\")",
+                    "target": "setDesc(\"Show line numbers relative to cursor position.\")"
+                },
+                {
+                    "source": "setName(\"Confirm file deletion\")",
+                    "target": "setName(\"Confirm file deletion\")"
+                },
+                {
+                    "source": "setDesc(\"Ask before deleting a file.\")",
+                    "target": "setDesc(\"Ask before deleting a file.\")"
+                },
+                {
+                    "source": "Notice(`\"${cssFile.name}\" was deleted.`)",
+                    "target": "Notice(`\"${cssFile.name}\" was deleted.`)"
+                },
+                {
+                    "source": "Notice(\n          `\"${cssFile.name}\" is now ${isEnabled ? \"enabled\" : \"disabled\"}.`\n        )",
+                    "target": "Notice(\n          `\"${cssFile.name}\" is now ${isEnabled ? \"enabled\" : \"disabled\"}.`\n        )"
+                },
+                {
+                    "source": "Notice(`\"${file.name}\" was created.`)",
+                    "target": "Notice(`\"${file.name}\" was created.`)"
+                },
+                {
+                    "source": "text: \"insert\"",
+                    "target": "text: \"insert\""
+                },
+                {
+                    "source": "text: \"normal\"",
+                    "target": "text: \"normal\""
+                },
+                {
+                    "source": "text: \"visual\"",
+                    "target": "text: \"visual\""
+                },
+                {
+                    "source": "name: \"colorscheme\"",
+                    "target": "name: \"colorscheme\""
+                },
+                {
+                    "source": "name: \"map\"",
+                    "target": "name: \"map\""
+                },
+                {
+                    "source": "name: \"imap\"",
+                    "target": "name: \"imap\""
+                },
+                {
+                    "source": "name: \"nmap\"",
+                    "target": "name: \"nmap\""
+                },
+                {
+                    "source": "name: \"vmap\"",
+                    "target": "name: \"vmap\""
+                },
+                {
+                    "source": "name: \"omap\"",
+                    "target": "name: \"omap\""
+                },
+                {
+                    "source": "name: \"noremap\"",
+                    "target": "name: \"noremap\""
+                },
+                {
+                    "source": "name: \"nnoremap\"",
+                    "target": "name: \"nnoremap\""
+                },
+                {
+                    "source": "name: \"vnoremap\"",
+                    "target": "name: \"vnoremap\""
+                },
+                {
+                    "source": "name: \"inoremap\"",
+                    "target": "name: \"inoremap\""
+                },
+                {
+                    "source": "name: \"onoremap\"",
+                    "target": "name: \"onoremap\""
+                },
+                {
+                    "source": "name: \"unmap\"",
+                    "target": "name: \"unmap\""
+                },
+                {
+                    "source": "name: \"mapclear\"",
+                    "target": "name: \"mapclear\""
+                },
+                {
+                    "source": "name: \"nmapclear\"",
+                    "target": "name: \"nmapclear\""
+                },
+                {
+                    "source": "name: \"vmapclear\"",
+                    "target": "name: \"vmapclear\""
+                },
+                {
+                    "source": "name: \"imapclear\"",
+                    "target": "name: \"imapclear\""
+                },
+                {
+                    "source": "name: \"omapclear\"",
+                    "target": "name: \"omapclear\""
+                },
+                {
+                    "source": "name: \"write\"",
+                    "target": "name: \"write\""
+                },
+                {
+                    "source": "name: \"undo\"",
+                    "target": "name: \"undo\""
+                },
+                {
+                    "source": "name: \"redo\"",
+                    "target": "name: \"redo\""
+                },
+                {
+                    "source": "name: \"set\"",
+                    "target": "name: \"set\""
+                },
+                {
+                    "source": "name: \"setlocal\"",
+                    "target": "name: \"setlocal\""
+                },
+                {
+                    "source": "name: \"setglobal\"",
+                    "target": "name: \"setglobal\""
+                },
+                {
+                    "source": "name: \"sort\"",
+                    "target": "name: \"sort\""
+                },
+                {
+                    "source": "name: \"substitute\"",
+                    "target": "name: \"substitute\""
+                },
+                {
+                    "source": "name: \"startinsert\"",
+                    "target": "name: \"startinsert\""
+                },
+                {
+                    "source": "name: \"nohlsearch\"",
+                    "target": "name: \"nohlsearch\""
+                },
+                {
+                    "source": "name: \"yank\"",
+                    "target": "name: \"yank\""
+                },
+                {
+                    "source": "name: \"delmarks\"",
+                    "target": "name: \"delmarks\""
+                },
+                {
+                    "source": "name: \"marks\"",
+                    "target": "name: \"marks\""
+                },
+                {
+                    "source": "name: \"registers\"",
+                    "target": "name: \"registers\""
+                },
+                {
+                    "source": "name: \"vglobal\"",
+                    "target": "name: \"vglobal\""
+                },
+                {
+                    "source": "name: \"delete\"",
+                    "target": "name: \"delete\""
+                },
+                {
+                    "source": "name: \"join\"",
+                    "target": "name: \"join\""
+                },
+                {
+                    "source": "name: \"normal\"",
+                    "target": "name: \"normal\""
+                },
+                {
+                    "source": "name: \"global\"",
+                    "target": "name: \"global\""
+                },
+                {
+                    "source": "name = \"\"",
+                    "target": "name = \"\""
+                },
+                {
+                    "source": "name = \"A-\"",
+                    "target": "name = \"A-\""
+                },
+                {
+                    "source": "name = \"<\"",
+                    "target": "name = \"<\""
+                },
+                {
+                    "source": "text = \"\"",
+                    "target": "text = \"\""
+                },
+                {
+                    "source": "text = \" \"",
+                    "target": "text = \" \""
+                },
+                {
+                    "source": "text = \"operatorPending\"",
+                    "target": "text = \"operatorPending\""
+                },
+                {
+                    "source": "textContent = \"\"",
+                    "target": "textContent = \"\""
+                },
+                {
+                    "source": "textContent = `--${status}--`",
+                    "target": "textContent = `--${status}--`"
+                },
+                {
+                    "source": "name = `${basename}.${this.extension}`",
+                    "target": "name = `${basename}.${this.extension}`"
+                },
+                {
+                    "source": "name: \"obsidian\"",
+                    "target": "name: \"obsidian\""
+                },
+                {
+                    "source": "selection: \"var(--text-selection)\"",
+                    "target": "selection: \"var(--text-selection)\""
+                },
+                {
+                    "source": "name: \"css\"",
+                    "target": "name: \"css\""
+                },
+                {
+                    "source": "text: `Are you sure you want to delete \"${this.file.name}\"?`",
+                    "target": "text: `Are you sure you want to delete \"${this.file.name}\"?`"
+                },
+                {
+                    "source": "text: \"This action cannot be undone.\"",
+                    "target": "text: \"This action cannot be undone.\""
+                },
+                {
+                    "source": "name: \"Create CSS snippet\"",
+                    "target": "name: \"Create CSS snippet\""
+                },
+                {
+                    "source": "name: \"Open quick switcher\"",
+                    "target": "name: \"Open quick switcher\""
+                },
+                {
+                    "source": "name: \"Delete CSS snippet\"",
+                    "target": "name: \"Delete CSS snippet\""
+                },
+                {
+                    "source": "name: \"Toggle the enabled/disabled state of CSS snippet\"",
+                    "target": "name: \"Toggle the enabled/disabled state of CSS snippet\""
+                }
+            ]
+        }
+    }
+}

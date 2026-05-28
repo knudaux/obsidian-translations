@@ -1,0 +1,548 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "ai-providers",
+        "version": "1.0.0",
+        "title": "AI Providers",
+        "description": "AI Providers Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.10.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "button",
+                    "target": "button"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "span",
+                    "target": "span"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "label",
+                    "target": "label"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "input",
+                    "target": "input"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to probe model capabilities:",
+                    "target": "探测模型能力失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to fetch models:",
+                    "target": "获取模型列表失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Could not parse message into JSON:",
+                    "target": "无法将消息解析为JSON："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "From chunk:",
+                    "target": "来自数据块："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error writing chunk:",
+                    "target": "写入数据块时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error closing writer:",
+                    "target": "关闭写入器时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Response error:",
+                    "target": "响应错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Request error:",
+                    "target": "请求错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Request failed:",
+                    "target": "请求失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "error parsing url",
+                    "target": "解析 URL 错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to fetch model info:",
+                    "target": "获取模型信息失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to get model info:",
+                    "target": "获取模型信息失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to initialize embeddings cache database:",
+                    "target": "初始化嵌入缓存数据库失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error getting embeddings from cache:",
+                    "target": "从缓存获取嵌入时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error setting embeddings in cache:",
+                    "target": "在缓存中设置嵌入时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error clearing embeddings cache:",
+                    "target": "清除嵌入缓存时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error reading from embeddings cache:",
+                    "target": "从嵌入缓存读取时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error writing to embeddings cache:",
+                    "target": "写入嵌入缓存时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to initialize embeddings cache:",
+                    "target": "初始化嵌入缓存失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error during cleanup:",
+                    "target": "清理过程中出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error during aiProviders cleanup:",
+                    "target": "aiProviders清理过程中出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error reinitializing embeddings cache:",
+                    "target": "重新初始化嵌入缓存时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "debug",
+                    "target": "debug"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "info",
+                    "target": "info"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "warn",
+                    "target": "warn"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "error",
+                    "target": "error"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Failed to parse error response as JSON",
+                    "target": "无法将错误响应解析为JSON"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Getting text from response",
+                    "target": "从响应中获取文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Failed to get text from error response",
+                    "target": "无法从错误响应中获取文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Logs raw streaming chunks for debugging transport issues. Keep this off unless you are actively debugging.",
+                    "target": "记录原始流式传输块以调试传输问题。除非您正在积极调试，否则请保持关闭。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Verbose stream chunk logging",
+                    "target": "详细流式传输块记录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "invalid json: ",
+                    "target": "无效的 JSON："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "The `parsed` property on `text` blocks is deprecated, please use `parsed_output` instead.",
+                    "target": "`text` 块上的 `parsed` 属性已弃用，请改用 `parsed_output`。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Anthropic only supports base64-encoded image data URLs. Skipping image.",
+                    "target": "Anthropic 仅支持 base64 编码的图像数据 URL。跳过图像。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Anthropic only supports jpeg, png, gif or webp images. Skipping image.",
+                    "target": "Anthropic 仅支持 jpeg、png、gif 或 webp 格式的图像。跳过图像。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "Reply with OK.",
+                    "target": "回复 OK。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "Call the capability_probe tool.",
+                    "target": "调用 capability_probe 工具。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "A minimal probe tool for capability checks.",
+                    "target": "用于能力检查的最小探测工具。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "OpenAI",
+                    "target": "OpenAI"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ollama",
+                    "target": "Ollama"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ollama (Open WebUI)",
+                    "target": "Ollama (Open WebUI)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Google Gemini",
+                    "target": "Google Gemini"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "OpenRouter",
+                    "target": "OpenRouter"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "LM Studio",
+                    "target": "LM Studio"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Groq",
+                    "target": "Groq"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Anthropic",
+                    "target": "Anthropic"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Mistral AI",
+                    "target": "Mistral AI"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Together AI",
+                    "target": "Together AI"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Fireworks AI",
+                    "target": "Fireworks AI"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Perplexity AI",
+                    "target": "Perplexity AI"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "DeepSeek",
+                    "target": "DeepSeek"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "xAI (Grok)",
+                    "target": "xAI (Grok)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Novita AI",
+                    "target": "Novita AI"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "DeepInfra",
+                    "target": "DeepInfra"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "SambaNova",
+                    "target": "SambaNova"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Cerebras",
+                    "target": "Cerebras"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "notice",
+                    "source": "Dieses Plugin ist eine Konfigurationszentrale für KI-Anbieter. Es macht selbst nichts, aber <a href=\"https://github.com/pfrankov/obsidian-ai-providers#required-by-plugins\">andere Plugins</a> können es nutzen, um KI-Einstellungen nicht mehrfach konfigurieren zu müssen.",
+                    "target": "这个插件是AI提供商的一个配置中心。它本身不执行任何操作，但<a href=\"https://github.com/pfrankov/obsidian-ai-providers#required-by-plugins\">其他插件</a>可以使用它来避免重复配置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "notice",
+                    "source": "This plugin is a configuration hub for AI providers. It does nothing by itself, but <a href=\"https://github.com/pfrankov/obsidian-ai-providers#required-by-plugins\">other plugins</a> can use it to avoid duplicated configuration.",
+                    "target": "这个插件是AI提供商的一个配置中心。它本身不执行任何操作，但<a href=\"https://github.com/pfrankov/obsidian-ai-providers#required-by-plugins\">其他插件</a>可以使用它来避免重复配置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "notice",
+                    "source": "Este plugin es un centro de configuración para proveedores de IA. No hace nada por sí mismo, pero <a href=\"https://github.com/pfrankov/obsidian-ai-providers#required-by-plugins\">otros plugins</a> pueden usarlo para evitar configuraciones duplicadas.",
+                    "target": "这个插件是AI提供商的一个配置中心。它本身不执行任何操作，但<a href=\"https://github.com/pfrankov/obsidian-ai-providers#required-by-plugins\">其他插件</a>可以使用它来避免重复配置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "notice",
+                    "source": "Ce plugin est un centre de configuration pour les fournisseurs d'IA. Il ne fait rien par lui-m\\xEAme, mais <a href=\"https://github.com/pfrankov/obsidian-ai-providers#required-by-plugins\">d'autres plugins</a> peuvent l'utiliser pour \\xE9viter une configuration en double.",
+                    "target": "这个插件是AI提供商的一个配置中心。它本身不执行任何操作，但<a href=\"https://github.com/pfrankov/obsidian-ai-providers#required-by-plugins\">其他插件</a>可以使用它来避免重复配置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "notice",
+                    "source": "Questo plugin è un hub di configurazione per i provider AI. Non fa nulla da solo, ma <a href=\"https://github.com/pfrankov/obsidian-ai-providers#required-by-plugins\">altri plugin</a> possono usarlo per evitare configurazioni duplicate.",
+                    "target": "这个插件是AI提供商的一个配置中心。它本身不执行任何操作，但<a href=\"https://github.com/pfrankov/obsidian-ai-providers#required-by-plugins\">其他插件</a>可以使用它来避免重复配置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "notice",
+                    "source": "このプラグインはAIプロバイダーの設定ハブです。それ自体では何もしませんが、<a href=\"https://github.com/pfrankov/obsidian-ai-providers#required-by-plugins\">他のプラグイン</a>がこれを使用して重複した設定を避けることができます。",
+                    "target": "这个插件是AI提供商的一个配置中心。它本身不执行任何操作，但<a href=\"https://github.com/pfrankov/obsidian-ai-providers#required-by-plugins\">其他插件</a>可以使用它来避免重复配置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "notice",
+                    "source": "이 플러그인은 AI 공급자를 위한 구성 허브입니다. 그 자체로는 아무것도 수행하지 않지만, <a href=\"https://github.com/pfrankov/obsidian-ai-providers#required-by-plugins\">다른 플러그인</a>이 이를 사용하여 중복 구성을 피할 수 있습니다.",
+                    "target": "这个插件是AI提供商的一个配置中心。它本身不执行任何操作，但<a href=\"https://github.com/pfrankov/obsidian-ai-providers#required-by-plugins\">其他插件</a>可以使用它来避免重复配置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "notice",
+                    "source": "Deze plug-in is een configuratiehub voor AI-providers. Het doet op zichzelf niets, maar <a href=\"https://github.com/pfrankov/obsidian-ai-providers#required-by-plugins\">andere plug-ins</a> kunnen het gebruiken om dubbele configuratie te voorkomen.",
+                    "target": "这个插件是AI提供商的一个配置中心。它本身不执行任何操作，但<a href=\"https://github.com/pfrankov/obsidian-ai-providers#required-by-plugins\">其他插件</a>可以使用它来避免重复配置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "notice",
+                    "source": "Este plugin é uma central de configuração para provedores de IA. Ele não faz nada por si só, mas <a href=\"https://github.com/pfrankov/obsidian-ai-providers#required-by-plugins\">outros plugins</a> podem usá-lo para evitar configurações duplicadas.",
+                    "target": "这个插件是AI提供商的一个配置中心。它本身不执行任何操作，但<a href=\"https://github.com/pfrankov/obsidian-ai-providers#required-by-plugins\">其他插件</a>可以使用它来避免重复配置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "notice",
+                    "source": "Этот плагин помогает настраивать AI-провайдеры. Сам по себе он ничего не делает, но служит общим хранилищем настроек, которым могут пользоваться <a href=\"https://github.com/pfrankov/obsidian-ai-providers#required-by-plugins\">другие плагины</a> вместо повторной настройки.",
+                    "target": "这个插件是AI提供商的一个配置中心。它本身不执行任何操作，但<a href=\"https://github.com/pfrankov/obsidian-ai-providers#required-by-plugins\">其他插件</a>可以使用它来避免重复配置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "notice",
+                    "source": "此插件是 AI 提供商的配置中心。它本身不提供任何功能，但<a href=\"https://github.com/pfrankov/obsidian-ai-providers#required-by-plugins\">其他插件</a>可以使用它来避免重复配置 AI 设置。",
+                    "target": "此插件是 AI 提供商的配置中心。它本身不提供任何功能，但<a href=\"https://github.com/pfrankov/obsidian-ai-providers#required-by-plugins\">其他插件</a>可以使用它来避免重复配置 AI 设置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Reply with OK if you can process the image.",
+                    "target": "Reply with OK if you can process the image."
+                }
+            ],
+            "regex": [
+                {
+                    "source": "error(\"Failed to fetch models:\",t),new q.Notice(S.t(\"errors.failedToFetchModels\")",
+                    "target": "error(\"获取模型失败:\",t),new q.Notice(S.t(\"errors.failedToFetchModels\")"
+                },
+                {
+                    "source": "setName(\"Verbose stream chunk logging\")",
+                    "target": "setName(\"详细流块日志\")"
+                },
+                {
+                    "source": "setDesc(\"Logs raw streaming chunks for debugging transport issues. Keep this off unless you are actively debugging.\")",
+                    "target": "setDesc(\"记录原始流块以调试传输问题。除非正在主动调试，否则请保持关闭。\")"
+                },
+                {
+                    "source": "error(\"Error writing chunk:\",P),d(),_.abort(P)}}),g.on(\"end\",async()=>{try{await _.ready,await _.close(),A.debug(\"Response stream completed\")",
+                    "target": "error(\"写入块时出错:\",P),d(),_.abort(P)}}),g.on(\"end\",async()=>{try{await _.ready,await _.close(),A.debug(\"响应流已完成\")"
+                },
+                {
+                    "source": "error(\"Error closing writer:\",C)}finally{d()}}),g.on(\"error\",C=>{A.error(\"Response error:\",C),d(),_.abort(C),l(C)})}),u.on(\"error\",g=>{A.error(\"Request error:\",g),d(),l(g)}),r.body&&u.write(r.body),u.end(),A.debug(\"Request sent\")",
+                    "target": "error(\"关闭写入器时出错:\",C)}finally{d()}}),g.on(\"error\",C=>{A.error(\"响应错误:\",C),d(),_.abort(C),l(C)})}),u.on(\"error\",g=>{A.error(\"请求错误:\",g),d(),l(g)}),r.body&&u.write(r.body),u.end(),A.debug(\"请求已发送\")"
+                },
+                {
+                    "source": "error(\"Request failed:\",i,{headers:n}),i}};var tc=require(\"obsidian\")",
+                    "target": "error(\"请求失败:\",i,{headers:n}),i}};var tc=require(\"obsidian\")"
+                },
+                {
+                    "source": "log(\"Failed to parse error response as JSON\")",
+                    "target": "log(\"无法将错误响应解析为JSON\")"
+                },
+                {
+                    "source": "log(\"Getting text from response\")",
+                    "target": "log(\"从响应中获取文本\")"
+                },
+                {
+                    "source": "log(\"Failed to get text from error response\")",
+                    "target": "log(\"无法从错误响应中获取文本\")"
+                },
+                {
+                    "source": "error(\"Could not parse message into JSON:\",d.data),o.error(\"From chunk:\",d.raw),u}if(d.event===\"message_start\"||d.event===\"message_delta\"||d.event===\"message_stop\"||d.event===\"content_block_start\"||d.event===\"content_block_delta\"||d.event===\"content_block_stop\")",
+                    "target": "error(\"无法将消息解析为JSON:\",d.data),o.error(\"来自块:\",d.raw),u}if(d.event===\"message_start\"||d.event===\"message_delta\"||d.event===\"message_stop\"||d.event===\"content_block_start\"||d.event===\"content_block_delta\"||d.event===\"content_block_stop\")"
+                },
+                {
+                    "source": "error(\"Could not parse message into JSON:\",d.data),o.error(\"From chunk:\",d.raw),u}if(d.event!==\"ping\"&&d.event===\"error\")",
+                    "target": "error(\"无法将消息解析为JSON:\",d.data),o.error(\"来自块:\",d.raw),u}if(d.event!==\"ping\"&&d.event===\"error\")"
+                },
+                {
+                    "source": "description:\"A minimal probe tool for capability checks.\"",
+                    "target": "description:\"用于能力检查的最小探测工具。\""
+                },
+                {
+                    "source": "text:\"Reply with OK if you can process the image.\"",
+                    "target": "text:\"如果您能处理该图像，请回复OK。\""
+                },
+                {
+                    "source": "name:\"Ollama (Open WebUI)\"",
+                    "target": "name:\"Ollama (Open WebUI)\""
+                },
+                {
+                    "source": "name:\"Google Gemini\"",
+                    "target": "name:\"Google Gemini\""
+                },
+                {
+                    "source": "name:\"LM Studio\"",
+                    "target": "name:\"LM Studio\""
+                },
+                {
+                    "source": "name:\"Mistral AI\"",
+                    "target": "name:\"Mistral AI\""
+                },
+                {
+                    "source": "name:\"Together AI\"",
+                    "target": "name:\"Together AI\""
+                },
+                {
+                    "source": "name:\"Fireworks AI\"",
+                    "target": "name:\"Fireworks AI\""
+                },
+                {
+                    "source": "name:\"Perplexity AI\"",
+                    "target": "name:\"Perplexity AI\""
+                },
+                {
+                    "source": "name:\"xAI (Grok)\"",
+                    "target": "name:\"xAI (Grok)\""
+                },
+                {
+                    "source": "name:\"Novita AI\"",
+                    "target": "name:\"Novita AI\""
+                },
+                {
+                    "source": "name:`${t.name} (${S.t(\"settings.duplicate\")})`",
+                    "target": "name:`${t.name} (${S.t(\"settings.duplicate\")})`"
+                },
+                {
+                    "source": "name: \"'+s+'\"",
+                    "target": "name: \"'+s+'\""
+                }
+            ]
+        }
+    }
+}

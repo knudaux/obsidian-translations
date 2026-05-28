@@ -1,0 +1,344 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-text-format",
+        "version": "1.0.0",
+        "title": "Text Format",
+        "description": "Text Format Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "3.1.0",
+        "author": "knudxiao"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<div>The format of note template can configured refer to <a href=\"https://github.com/Benature/obsidian-text-format?tab=readme-ov-file#zotero-format\">document</a>.</div>\n    <ul>\n    <li><code>text</code>: highlight</li>\n    <li><code>pdf_url</code>: comment</li>\n    <li><code>item</code>: citation</li>\n    </ul>",
+                    "target": "<div>The format of note template can configured refer to <a href=\"https://github.com/Benature/obsidian-text-format?tab=readme-ov-file#zotero-format\">document</a>.</div>\n    <ul>\n    <li><code>text</code>: highlight</li>\n    <li><code>pdf_url</code>: comment</li>\n    <li><code>item</code>: citation</li>\n    </ul>"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Fixed callout type",
+                    "target": "Fixed callout type"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Last callout type in the whole file",
+                    "target": "Last callout type in the whole file"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Last callout type before the cursor",
+                    "target": "Last callout type before the cursor"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "div",
+                    "target": "div"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "span",
+                    "target": "span"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "img",
+                    "target": "img"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "br",
+                    "target": "br"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "error",
+                    "target": "error"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "ignore plain text",
+                    "target": "ignore plain text"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "nothing changed.",
+                    "target": "nothing changed."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "upgrade customReplaceBuiltInLog",
+                    "target": "upgrade customReplaceBuiltInLog"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "lowerCase\nupperCase",
+                    "target": "lowerCase\nupperCase"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "USA, UFO",
+                    "target": "USA, UFO"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "{title} (> {heading})",
+                    "target": "{title} (> {heading})"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "{alias} ({title})",
+                    "target": "{alias} ({title})"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "•–",
+                    "target": "•–"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "{text} [🔖]({pdf_url})",
+                    "target": "{text} [🔖]({pdf_url})"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Callout type",
+                    "target": "Callout type"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "setting-item-description heading-description",
+                    "target": "setting-item-description heading-description"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Wrap the selection with prefix and suffix",
+                    "target": "Wrap the selection with prefix and suffix"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在选中的文本前后添加前缀和后缀。",
+                    "target": "在选中的文本前后添加前缀和后缀。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "header",
+                    "source": "Merge broken paragraphs behavior",
+                    "target": "Merge broken paragraphs behavior"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "header",
+                    "source": "Wrapper",
+                    "target": "Wrapper"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "header",
+                    "source": "合并段落",
+                    "target": "合并段落"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "header",
+                    "source": "包装器",
+                    "target": "包装器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "icon",
+                    "source": "bolt",
+                    "target": "bolt"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "icon",
+                    "source": "list",
+                    "target": "list"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "icon",
+                    "source": "space",
+                    "target": "space"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "slugify",
+                    "target": "slugify"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "snakify",
+                    "target": "snakify"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "hyphen",
+                    "target": "hyphen"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "ligature",
+                    "target": "ligature"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "callout",
+                    "target": "callout"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "underline",
+                    "target": "underline"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Format when removing wikiLink",
+                    "target": "Format when removing wikiLink"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "log(\"ignore plain text\")",
+                    "target": "log(\"ignore plain text\")"
+                },
+                {
+                    "source": "log(\"else: Do not sort\")",
+                    "target": "log(\"else: Do not sort\")"
+                },
+                {
+                    "source": "log(\"input text\")",
+                    "target": "log(\"input text\")"
+                },
+                {
+                    "source": "appendText(\"If you find this plugin useful and would like to support its development, you can sponsor me by the button below.\")",
+                    "target": "appendText(\"If you find this plugin useful and would like to support its development, you can sponsor me by the button below.\")"
+                },
+                {
+                    "source": "setPlaceholder(\"USA, UFO\")",
+                    "target": "setPlaceholder(\"USA, UFO\")"
+                },
+                {
+                    "source": "setDesc(\"Or will use absolute path instead.\")",
+                    "target": "setDesc(\"Or will use absolute path instead.\")"
+                },
+                {
+                    "source": "setPlaceholder(\"{title} (> {heading})\")",
+                    "target": "setPlaceholder(\"{title} (> {heading})\")"
+                },
+                {
+                    "source": "setPlaceholder(\"{alias} ({title})\")",
+                    "target": "setPlaceholder(\"{alias} ({title})\")"
+                },
+                {
+                    "source": "setPlaceholder(\"•–\")",
+                    "target": "setPlaceholder(\"•–\")"
+                },
+                {
+                    "source": "setPlaceholder(\"{text} [🔖]({pdf_url})\")",
+                    "target": "setPlaceholder(\"{text} [🔖]({pdf_url})\")"
+                },
+                {
+                    "source": "setPlaceholder(\"Callout type\")",
+                    "target": "setPlaceholder(\"Callout type\")"
+                },
+                {
+                    "source": "Notice(`[INFO] Updated ${this.manifest.name} from ${this.settings.manifest.version} to v${this.manifest.version}, backup ongoing...`)",
+                    "target": "Notice(`[INFO] Updated ${this.manifest.name} from ${this.settings.manifest.version} to v${this.manifest.version}, backup ongoing...`)"
+                },
+                {
+                    "source": "log(\"upgrade customReplaceBuiltInLog\")",
+                    "target": "log(\"upgrade customReplaceBuiltInLog\")"
+                },
+                {
+                    "source": "name = \"SuppressedError\"",
+                    "target": "name = \"SuppressedError\""
+                },
+                {
+                    "source": "text = \"\"",
+                    "target": "text = \"\""
+                },
+                {
+                    "source": "text = ''",
+                    "target": "text = ''"
+                },
+                {
+                    "source": "text: \"\"",
+                    "target": "text: \"\""
+                },
+                {
+                    "source": "name = 'program'",
+                    "target": "name = 'program'"
+                },
+                {
+                    "source": "text = `item-${text}`",
+                    "target": "text = `item-${text}`"
+                },
+                {
+                    "source": "name: \"underline\"",
+                    "target": "name: \"underline\""
+                },
+                {
+                    "source": "text: \"dfsfdsd\"",
+                    "target": "text: \"dfsfdsd\""
+                },
+                {
+                    "source": "text: \"text-format\"",
+                    "target": "text: \"text-format\""
+                },
+                {
+                    "source": "text = \"<unknown>\"",
+                    "target": "text = \"<unknown>\""
+                },
+                {
+                    "source": "text: \"Format when removing wikiLink\"",
+                    "target": "text: \"Format when removing wikiLink\""
+                },
+                {
+                    "source": "text: \"Define the result of calling `Remove WikiLink format in selection`\"",
+                    "target": "text: \"Define the result of calling `Remove WikiLink format in selection`\""
+                },
+                {
+                    "source": "name: \"\"",
+                    "target": "name: \"\""
+                },
+                {
+                    "source": "search: \"\"",
+                    "target": "search: \"\""
+                }
+            ]
+        }
+    }
+}
